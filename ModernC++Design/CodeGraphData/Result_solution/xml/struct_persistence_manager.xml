@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_persistence_manager" kind="struct" prot="public">
+    <compoundname>PersistenceManager</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_persistence_manager_1a1222c6f2deb998e02e117bdb30080104" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PersistenceManager::save</definition>
+        <argsstring>(const Journal &amp;j, const string &amp;filename)</argsstring>
+        <name>save</name>
+        <param>
+          <type>const <ref refid="struct_journal" kindref="compound">Journal</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="60" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="60" bodyend="69"/>
+        <references refid="struct_journal_1ad96fd4f99472804e57b5c3143556c9d8" compoundref="_single_responsibility_principle_8cpp" startline="14">Journal::entries</references>
+        <referencedby refid="_single_responsibility_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_single_responsibility_principle_8cpp" startline="72" endline="87">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="56" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="55" bodyend="70"/>
+    <listofallmembers>
+      <member refid="struct_persistence_manager_1a1222c6f2deb998e02e117bdb30080104" prot="public" virt="non-virtual"><scope>PersistenceManager</scope><name>save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

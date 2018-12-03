@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_rectangle" kind="class" prot="public">
+    <compoundname>Rectangle</compoundname>
+    <derivedcompoundref refid="class_square" prot="public" virt="non-virtual">Square</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_rectangle_1a019ed802523594472e0032953b6062d4" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Rectangle::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="12" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_rectangle_1ab4a6d24869d1c89d2cdce5572fb4971a" compoundref="3_liskov_substitution_principle_8cpp" startline="20" endline="23">setWidth</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rectangle_1ac564db1ed0dd61dd82a5276399bc72ad" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Rectangle::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="12" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8" compoundref="3_liskov_substitution_principle_8cpp" startline="28" endline="31">setHeigth</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rectangle_1a6075b7065a6cfb2e4007030d07f0d7be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Rectangle::Rectangle</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>Rectangle</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="14" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rectangle_1aab391a58ba649f72b16cb7452a49c8ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Rectangle::getWidth</definition>
+        <argsstring>() const </argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="16" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="16" bodyend="19"/>
+        <referencedby refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" compoundref="3_liskov_substitution_principle_8cpp" startline="55" endline="62">process</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_rectangle_1ab4a6d24869d1c89d2cdce5572fb4971a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Rectangle::setWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>setWidth</name>
+        <reimplementedby refid="class_square_1a5c2c3765c41f94587bfd3aaf9285bcb5">setWidth</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="20" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="20" bodyend="23"/>
+        <references refid="class_rectangle_1a019ed802523594472e0032953b6062d4" compoundref="3_liskov_substitution_principle_8cpp" startline="12">width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rectangle_1a0d94cab2723e3426688bfe2a3d14816e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Rectangle::getHeight</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="24" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Rectangle::setHeigth</definition>
+        <argsstring>(int height)</argsstring>
+        <name>setHeigth</name>
+        <reimplementedby refid="class_square_1a73d5a7b6ceaeb0689b855faffc266772">setHeigth</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="28" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="28" bodyend="31"/>
+        <references refid="class_rectangle_1ac564db1ed0dd61dd82a5276399bc72ad" compoundref="3_liskov_substitution_principle_8cpp" startline="12">height</references>
+        <referencedby refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" compoundref="3_liskov_substitution_principle_8cpp" startline="55" endline="62">process</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_rectangle_1abde93b6e0587052d64b64a44d6d870dd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Rectangle::area</definition>
+        <argsstring>() const </argsstring>
+        <name>area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="33" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="33" bodyend="33"/>
+        <referencedby refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" compoundref="3_liskov_substitution_principle_8cpp" startline="55" endline="62">process</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="118">
+        <label>Rectangle</label>
+        <link refid="class_rectangle"/>
+      </node>
+      <node id="119">
+        <label>Square</label>
+        <link refid="class_square"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="10" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_rectangle_1abde93b6e0587052d64b64a44d6d870dd" prot="public" virt="virtual"><scope>Rectangle</scope><name>area</name></member>
+      <member refid="class_rectangle_1a0d94cab2723e3426688bfe2a3d14816e" prot="public" virt="virtual"><scope>Rectangle</scope><name>getHeight</name></member>
+      <member refid="class_rectangle_1aab391a58ba649f72b16cb7452a49c8ff" prot="public" virt="virtual"><scope>Rectangle</scope><name>getWidth</name></member>
+      <member refid="class_rectangle_1ac564db1ed0dd61dd82a5276399bc72ad" prot="protected" virt="non-virtual"><scope>Rectangle</scope><name>height</name></member>
+      <member refid="class_rectangle_1a6075b7065a6cfb2e4007030d07f0d7be" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>Rectangle</name></member>
+      <member refid="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8" prot="public" virt="virtual"><scope>Rectangle</scope><name>setHeigth</name></member>
+      <member refid="class_rectangle_1ab4a6d24869d1c89d2cdce5572fb4971a" prot="public" virt="virtual"><scope>Rectangle</scope><name>setWidth</name></member>
+      <member refid="class_rectangle_1a019ed802523594472e0032953b6062d4" prot="protected" virt="non-virtual"><scope>Rectangle</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

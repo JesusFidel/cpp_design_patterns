@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_772aecf44c29ef92a6376b7471318118" kind="dir">
+    <compoundname>C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple</compoundname>
+    <innerfile refid="4_interface_segregation_principle_8cpp">4InterfaceSegregationPrinciple.cpp</innerfile>
+    <innerfile refid="4_interface_segregation_principle_2stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="4_interface_segregation_principle_2stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="4_interface_segregation_principle_2targetver_8h">targetver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/"/>
+  </compounddef>
+</doxygen>

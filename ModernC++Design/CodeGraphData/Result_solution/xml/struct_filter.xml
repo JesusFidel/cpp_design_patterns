@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_filter" kind="struct" prot="public" abstract="yes">
+    <compoundname>Filter</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_filter_1a3b09461e79c0a7827c750560efaf57ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>vector&lt; T * &gt;</type>
+        <definition>virtual vector&lt;T*&gt; Filter&lt; T &gt;::filter</definition>
+        <argsstring>(vector&lt; T * &gt; items, Specification&lt; T &gt; &amp;spec)=0</argsstring>
+        <name>filter</name>
+        <param>
+          <type>vector&lt; T * &gt;</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_specification" kindref="compound">Specification</ref>&lt; T &gt; &amp;</type>
+          <declname>spec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="102" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="101" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="101" bodyend="103"/>
+    <listofallmembers>
+      <member refid="struct_filter_1a3b09461e79c0a7827c750560efaf57ff" prot="public" virt="pure-virtual"><scope>Filter</scope><name>filter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

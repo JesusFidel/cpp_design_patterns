@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_printer" kind="struct" prot="public">
+    <compoundname>Printer</compoundname>
+    <basecompoundref refid="struct_i_printer" prot="public" virt="non-virtual">IPrinter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_printer_1a51c53a52a4cffbec6c83840c75d4f75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Printer::print</definition>
+        <argsstring>(Document &amp;doc) override</argsstring>
+        <name>print</name>
+        <reimplements refid="struct_i_printer_1ab87b618c9faa86546f1d32429c556b35">print</reimplements>
+        <param>
+          <type>Document &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="109">
+        <label>IPrinter</label>
+        <link refid="struct_i_printer"/>
+      </node>
+      <node id="108">
+        <label>Printer</label>
+        <link refid="struct_printer"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="111">
+        <label>IPrinter</label>
+        <link refid="struct_i_printer"/>
+      </node>
+      <node id="110">
+        <label>Printer</label>
+        <link refid="struct_printer"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="64" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="63" bodyend="66"/>
+    <listofallmembers>
+      <member refid="struct_printer_1a51c53a52a4cffbec6c83840c75d4f75e" prot="public" virt="virtual"><scope>Printer</scope><name>print</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_person_builder_8cpp" kind="file">
+    <compoundname>PersonBuilder.cpp</compoundname>
+    <includes refid="_person_builder_8h" local="yes">PersonBuilder.h</includes>
+    <includes refid="_person_address_builder_8h" local="yes">PersonAddressBuilder.h</includes>
+    <includes refid="_person_job_builder_8h" local="yes">PersonJobBuilder.h</includes>
+    <incdepgraph>
+      <node id="233">
+        <label>string</label>
+      </node>
+      <node id="231">
+        <label>PersonBuilder.h</label>
+        <link refid="_person_builder_8h"/>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>PersonAddressBuilder.h</label>
+        <link refid="_person_address_builder_8h"/>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>PersonJobBuilder.h</label>
+        <link refid="_person_job_builder_8h"/>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>Person.h</label>
+        <link refid="_person_8h"/>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>iostream</label>
+      </node>
+      <node id="230">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.cpp</label>
+        <link refid="PersonBuilder.cpp"/>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_builder_8h" kindref="compound">PersonBuilder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_address_builder_8h" kindref="compound">PersonAddressBuilder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_job_builder_8h" kindref="compound">PersonJobBuilder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_person_builder_base_1ac09ad8bf36acea5d5dfda54c45d26b5d" refkind="member"><highlight class="normal"><ref refid="class_person_address_builder" kindref="compound">PersonAddressBuilder</ref><sp/><ref refid="class_person_builder_base_1ac09ad8bf36acea5d5dfda54c45d26b5d" kindref="member">PersonBuilderBase::lives</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="6"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_person_address_builder" kindref="compound">PersonAddressBuilder</ref>{<sp/><ref refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" kindref="member">person</ref><sp/>};</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_person_builder_base_1a4115dc6c81c43780b9cc91f1019c7fc3" refkind="member"><highlight class="normal"><ref refid="class_person_job_builder" kindref="compound">PersonJobBuilder</ref><sp/><ref refid="class_person_builder_base_1a4115dc6c81c43780b9cc91f1019c7fc3" kindref="member">PersonBuilderBase::works</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="11"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_person_job_builder" kindref="compound">PersonJobBuilder</ref>{<sp/><ref refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" kindref="member">person</ref><sp/>};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_and_specification" kind="struct" prot="public">
+    <compoundname>AndSpecification</compoundname>
+    <basecompoundref refid="struct_specification" prot="public" virt="non-virtual">Specification&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_and_specification_1a4894e8864c3e2271bc816135ac3b4ebc" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_specification" kindref="compound">Specification</ref>&lt; T &gt; &amp;</type>
+        <definition>Specification&lt;T&gt;&amp; AndSpecification&lt; T &gt;::first</definition>
+        <argsstring></argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="149" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_and_specification_1add38e3ae957f57e8e65b6e12ca291cbe" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_specification" kindref="compound">Specification</ref>&lt; T &gt; &amp;</type>
+        <definition>Specification&lt;T&gt;&amp; AndSpecification&lt; T &gt;::second</definition>
+        <argsstring></argsstring>
+        <name>second</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="150" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_and_specification_1aaaa773ad9c6f5c9ed37e492e4de2dfb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AndSpecification&lt; T &gt;::AndSpecification</definition>
+        <argsstring>(Specification&lt; T &gt; &amp;first, Specification&lt; T &gt; &amp;second)</argsstring>
+        <name>AndSpecification</name>
+        <param>
+          <type><ref refid="struct_specification" kindref="compound">Specification</ref>&lt; T &gt; &amp;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_specification" kindref="compound">Specification</ref>&lt; T &gt; &amp;</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="152" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="152" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_and_specification_1aa6d9fb5773dfc55dba815ed1417cb81e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool AndSpecification&lt; T &gt;::is_satisfied</definition>
+        <argsstring>(T *item) override</argsstring>
+        <name>is_satisfied</name>
+        <reimplements refid="struct_specification_1a509392a90d0c98f045a8b8287b0799a2">is_satisfied</reimplements>
+        <param>
+          <type>T *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="155" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="155" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Specification&lt; T &gt;</label>
+        <link refid="struct_specification"/>
+      </node>
+      <node id="0">
+        <label>AndSpecification&lt; T &gt;</label>
+        <link refid="struct_and_specification"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Specification&lt; T &gt;</label>
+        <link refid="struct_specification"/>
+      </node>
+      <node id="2">
+        <label>AndSpecification&lt; T &gt;</label>
+        <link refid="struct_and_specification"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="148" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="147" bodyend="159"/>
+    <listofallmembers>
+      <member refid="struct_and_specification_1aaaa773ad9c6f5c9ed37e492e4de2dfb2" prot="public" virt="non-virtual"><scope>AndSpecification</scope><name>AndSpecification</name></member>
+      <member refid="struct_and_specification_1a4894e8864c3e2271bc816135ac3b4ebc" prot="public" virt="non-virtual"><scope>AndSpecification</scope><name>first</name></member>
+      <member refid="struct_and_specification_1aa6d9fb5773dfc55dba815ed1417cb81e" prot="public" virt="virtual"><scope>AndSpecification</scope><name>is_satisfied</name></member>
+      <member refid="struct_specification_1a1b75a14a5836043868e13779366c4f6c" prot="public" virt="non-virtual"><scope>AndSpecification</scope><name>operator&amp;&amp;</name></member>
+      <member refid="struct_and_specification_1add38e3ae957f57e8e65b6e12ca291cbe" prot="public" virt="non-virtual"><scope>AndSpecification</scope><name>second</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

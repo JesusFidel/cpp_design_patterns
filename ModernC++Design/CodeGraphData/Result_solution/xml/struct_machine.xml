@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_machine" kind="struct" prot="public">
+    <compoundname>Machine</compoundname>
+    <basecompoundref refid="struct_i_machine" prot="public" virt="non-virtual">IMachine</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_machine_1a7871626c324dfc701a4a675a400eafd4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_i_printer" kindref="compound">IPrinter</ref> &amp;</type>
+        <definition>IPrinter&amp; Machine::printer</definition>
+        <argsstring></argsstring>
+        <name>printer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="84" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_machine_1ad71479cee83da012ff03cfa84d14ba21" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_i_scanner" kindref="compound">IScanner</ref> &amp;</type>
+        <definition>IScanner&amp; Machine::scanner</definition>
+        <argsstring></argsstring>
+        <name>scanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="85" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_machine_1a5907959504774d06be573e1fcfc7c4bb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_i_fax" kindref="compound">IFax</ref> &amp;</type>
+        <definition>IFax&amp; Machine::fax</definition>
+        <argsstring></argsstring>
+        <name>fax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="86" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_machine_1afba7a0b1256214b0fcc7e40e3a6e38cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Machine::Machine</definition>
+        <argsstring>(IPrinter &amp;printer, IScanner &amp;scanner, IFax &amp;fax)</argsstring>
+        <name>Machine</name>
+        <param>
+          <type><ref refid="struct_i_printer" kindref="compound">IPrinter</ref> &amp;</type>
+          <declname>printer</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_i_scanner" kindref="compound">IScanner</ref> &amp;</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_i_fax" kindref="compound">IFax</ref> &amp;</type>
+          <declname>fax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="88" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_machine_1ab2c85011d244d1888188f9030e087a59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Machine::print</definition>
+        <argsstring>(Document &amp;doc) override</argsstring>
+        <name>print</name>
+        <reimplements refid="struct_i_printer_1ab87b618c9faa86546f1d32429c556b35">print</reimplements>
+        <param>
+          <type>Document &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="95" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_machine_1aaac247c7390e96af73c20f3ab7980bac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Machine::scan</definition>
+        <argsstring>(Document &amp;doc) override</argsstring>
+        <name>scan</name>
+        <reimplements refid="struct_i_scanner_1aa46440bde5f3975e1bd8afa96508fcf0">scan</reimplements>
+        <param>
+          <type>Document &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_machine_1aa95e12eadae4b233d1e4535627223849" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Machine::fax</definition>
+        <argsstring>(Document &amp;doc) override</argsstring>
+        <name>fax</name>
+        <reimplements refid="struct_i_fax_1ac6559f51ae6155d222f881ef733e4012">fax</reimplements>
+        <param>
+          <type>Document &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="100" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>IScanner</label>
+        <link refid="struct_i_scanner"/>
+      </node>
+      <node id="55">
+        <label>Machine</label>
+        <link refid="struct_machine"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>IFax</label>
+        <link refid="struct_i_fax"/>
+      </node>
+      <node id="57">
+        <label>IPrinter</label>
+        <link refid="struct_i_printer"/>
+      </node>
+      <node id="56">
+        <label>IMachine</label>
+        <link refid="struct_i_machine"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>IScanner</label>
+        <link refid="struct_i_scanner"/>
+      </node>
+      <node id="60">
+        <label>Machine</label>
+        <link refid="struct_machine"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>fax</edgelabel>
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>scanner</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>printer</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
+        <label>IFax</label>
+        <link refid="struct_i_fax"/>
+      </node>
+      <node id="62">
+        <label>IPrinter</label>
+        <link refid="struct_i_printer"/>
+      </node>
+      <node id="61">
+        <label>IMachine</label>
+        <link refid="struct_i_machine"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="83" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="82" bodyend="103"/>
+    <listofallmembers>
+      <member refid="struct_machine_1a5907959504774d06be573e1fcfc7c4bb" prot="public" virt="non-virtual"><scope>Machine</scope><name>fax</name></member>
+      <member refid="struct_machine_1aa95e12eadae4b233d1e4535627223849" prot="public" virt="virtual"><scope>Machine</scope><name>fax</name></member>
+      <member refid="struct_machine_1afba7a0b1256214b0fcc7e40e3a6e38cd" prot="public" virt="non-virtual"><scope>Machine</scope><name>Machine</name></member>
+      <member refid="struct_machine_1ab2c85011d244d1888188f9030e087a59" prot="public" virt="virtual"><scope>Machine</scope><name>print</name></member>
+      <member refid="struct_machine_1a7871626c324dfc701a4a675a400eafd4" prot="public" virt="non-virtual"><scope>Machine</scope><name>printer</name></member>
+      <member refid="struct_machine_1aaac247c7390e96af73c20f3ab7980bac" prot="public" virt="virtual"><scope>Machine</scope><name>scan</name></member>
+      <member refid="struct_machine_1ad71479cee83da012ff03cfa84d14ba21" prot="public" virt="non-virtual"><scope>Machine</scope><name>scanner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

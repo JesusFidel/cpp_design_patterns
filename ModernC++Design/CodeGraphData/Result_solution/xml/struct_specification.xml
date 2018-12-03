@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_specification" kind="struct" prot="public" abstract="yes">
+    <compoundname>Specification</compoundname>
+    <derivedcompoundref refid="struct_and_specification" prot="public" virt="non-virtual">AndSpecification&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_specification_1a509392a90d0c98f045a8b8287b0799a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Specification&lt; T &gt;::is_satisfied</definition>
+        <argsstring>(T *item)=0</argsstring>
+        <name>is_satisfied</name>
+        <reimplementedby refid="struct_color_specification_1a2e999c507c773439e95f1766e17bd538">is_satisfied</reimplementedby>
+        <reimplementedby refid="struct_size_specification_1a0b2d8d5be0f5a53ee88bfb984172f8de">is_satisfied</reimplementedby>
+        <reimplementedby refid="struct_and_specification_1aa6d9fb5773dfc55dba815ed1417cb81e">is_satisfied</reimplementedby>
+        <param>
+          <type>T *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="93" column="1"/>
+        <referencedby refid="struct_better_filter_1aa9da194971b56e495bde62309452173c" compoundref="2_open-_closed_principle_8cpp" startline="107" endline="118">BetterFilter::filter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_specification_1a1b75a14a5836043868e13779366c4f6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_and_specification" kindref="compound">AndSpecification</ref>&lt; T &gt;</type>
+        <definition>AndSpecification&lt;T&gt; Specification&lt; T &gt;::operator&amp;&amp;</definition>
+        <argsstring>(Specification&lt; T &gt; &amp;&amp;other)</argsstring>
+        <name>operator&amp;&amp;</name>
+        <param>
+          <type><ref refid="struct_specification" kindref="compound">Specification</ref>&lt; T &gt; &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="95" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="95" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="131">
+        <label>Specification&lt; T &gt;</label>
+        <link refid="struct_specification"/>
+      </node>
+      <node id="132">
+        <label>AndSpecification&lt; T &gt;</label>
+        <link refid="struct_and_specification"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="91" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="91" bodyend="98"/>
+    <listofallmembers>
+      <member refid="struct_specification_1a509392a90d0c98f045a8b8287b0799a2" prot="public" virt="pure-virtual"><scope>Specification</scope><name>is_satisfied</name></member>
+      <member refid="struct_specification_1a1b75a14a5836043868e13779366c4f6c" prot="public" virt="non-virtual"><scope>Specification</scope><name>operator&amp;&amp;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

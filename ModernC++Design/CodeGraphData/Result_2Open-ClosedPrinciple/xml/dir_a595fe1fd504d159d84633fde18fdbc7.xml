@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a595fe1fd504d159d84633fde18fdbc7" kind="dir">
+    <compoundname>C:/shared</compoundname>
+    <innerdir refid="dir_51c5d964a4d2876df9fd99f76f9e08a2">C:/shared/Courses</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/"/>
+  </compounddef>
+</doxygen>

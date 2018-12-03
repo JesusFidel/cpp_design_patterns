@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structhtml_1_1_i_m_g" kind="struct" prot="public">
+    <compoundname>html::IMG</compoundname>
+    <basecompoundref refid="structhtml_1_1_tag" prot="public" virt="non-virtual">html::Tag</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhtml_1_1_i_m_g_1a21c2bf351cf6d6d8ec315f31a03ad83e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>html::IMG::IMG</definition>
+        <argsstring>(const string &amp;url)</argsstring>
+        <name>IMG</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="92" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="92" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>html::Tag</label>
+        <link refid="structhtml_1_1_tag"/>
+      </node>
+      <node id="32">
+        <label>html::IMG</label>
+        <link refid="structhtml_1_1_i_m_g"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>html::Tag</label>
+        <link refid="structhtml_1_1_tag"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>name</edgelabel>
+          <edgelabel>text</edgelabel>
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>attributes</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="34">
+        <label>html::IMG</label>
+        <link refid="structhtml_1_1_i_m_g"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>std::vector&lt; pair&lt; string, string &gt; &gt;</label>
+      </node>
+      <node id="36">
+        <label>std::vector&lt; html::Tag &gt;</label>
+        <childnode refid="35" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>std::string</label>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="91" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="90" bodyend="97"/>
+    <listofallmembers>
+      <member refid="structhtml_1_1_tag_1a64186bcf0439c7bc9f6bb3d4f6258522" prot="public" virt="non-virtual"><scope>html::IMG</scope><name>attributes</name></member>
+      <member refid="structhtml_1_1_tag_1a786284f08c41547d9af0643aeedfe9be" prot="public" virt="non-virtual"><scope>html::IMG</scope><name>children</name></member>
+      <member refid="structhtml_1_1_i_m_g_1a21c2bf351cf6d6d8ec315f31a03ad83e" prot="public" virt="non-virtual"><scope>html::IMG</scope><name>IMG</name></member>
+      <member refid="structhtml_1_1_tag_1aaa3fe8080ca48c29d0c24c155d4ca5ac" prot="public" virt="non-virtual"><scope>html::IMG</scope><name>name</name></member>
+      <member refid="structhtml_1_1_tag_1a097a236f19501929aa35f426b2a4f769" prot="protected" virt="non-virtual"><scope>html::IMG</scope><name>Tag</name></member>
+      <member refid="structhtml_1_1_tag_1a3bc262fc4690fb941dddaef4f06718f1" prot="protected" virt="non-virtual"><scope>html::IMG</scope><name>Tag</name></member>
+      <member refid="structhtml_1_1_tag_1a809f887c21590d48635c36832f7cec98" prot="public" virt="non-virtual"><scope>html::IMG</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

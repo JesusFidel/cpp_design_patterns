@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="6_builder_facets_8cpp" kind="file">
+    <compoundname>6BuilderFacets.cpp</compoundname>
+    <includes refid="6_builder_facets_2stdafx_8h" local="yes">stdafx.h</includes>
+    <incdepgraph>
+      <node id="196">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="194">
+        <label>stdafx.h</label>
+        <link refid="6_builder_facets_2stdafx_8h"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="195">
+        <label>targetver.h</label>
+        <link refid="6_builder_facets_2targetver_8h"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/6BuilderFacets.cpp</label>
+        <link refid="6BuilderFacets.cpp"/>
+        <childnode refid="194" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>tchar.h</label>
+      </node>
+      <node id="197">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="6_builder_facets_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/6BuilderFacets.cpp" line="7" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/6BuilderFacets.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>6BuilderFacets.cpp<sp/>:<sp/>Defines<sp/>the<sp/>entry<sp/>point<sp/>for<sp/>the<sp/>console<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="6_builder_facets_2stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="6_builder_facets_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="6_builder_facets_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/6BuilderFacets.cpp"/>
+  </compounddef>
+</doxygen>

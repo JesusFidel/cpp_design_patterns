@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_color_specification" kind="struct" prot="public">
+    <compoundname>ColorSpecification</compoundname>
+    <basecompoundref refid="struct_specification" prot="public" virt="non-virtual">Specification&lt; Product &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_color_specification_1ab5cb7fe1ba7ffcdc4d6e8be64c5d8a0a" prot="public" static="no" mutable="no">
+        <type><ref refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
+        <definition>Color ColorSpecification::m_color</definition>
+        <argsstring></argsstring>
+        <name>m_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="124" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_color_specification_1a786795324299b99d38bebf9a43bc7cec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ColorSpecification::ColorSpecification</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>ColorSpecification</name>
+        <param>
+          <type><ref refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="125" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_color_specification_1a2e999c507c773439e95f1766e17bd538" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool ColorSpecification::is_satisfied</definition>
+        <argsstring>(Product *item) override</argsstring>
+        <name>is_satisfied</name>
+        <reimplements refid="struct_specification_1a509392a90d0c98f045a8b8287b0799a2">is_satisfied</reimplements>
+        <param>
+          <type><ref refid="struct_product" kindref="compound">Product</ref> *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="127" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="127" bodyend="129"/>
+        <references refid="struct_product_1a12eef43b4dc615d569d2b07760d10bc1" compoundref="2_open-_closed_principle_8cpp" startline="24">Product::color</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>ColorSpecification</label>
+        <link refid="struct_color_specification"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Specification&lt; Product &gt;</label>
+        <link refid="struct_specification"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>ColorSpecification</label>
+        <link refid="struct_color_specification"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Specification&lt; Product &gt;</label>
+        <link refid="struct_specification"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="123" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="122" bodyend="131"/>
+    <listofallmembers>
+      <member refid="struct_color_specification_1a786795324299b99d38bebf9a43bc7cec" prot="public" virt="non-virtual"><scope>ColorSpecification</scope><name>ColorSpecification</name></member>
+      <member refid="struct_color_specification_1a2e999c507c773439e95f1766e17bd538" prot="public" virt="virtual"><scope>ColorSpecification</scope><name>is_satisfied</name></member>
+      <member refid="struct_color_specification_1ab5cb7fe1ba7ffcdc4d6e8be64c5d8a0a" prot="public" virt="non-virtual"><scope>ColorSpecification</scope><name>m_color</name></member>
+      <member refid="struct_specification_1a1b75a14a5836043868e13779366c4f6c" prot="public" virt="non-virtual"><scope>ColorSpecification</scope><name>operator&amp;&amp;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

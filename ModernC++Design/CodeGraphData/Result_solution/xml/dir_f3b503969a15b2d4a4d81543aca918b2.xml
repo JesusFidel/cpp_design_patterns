@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f3b503969a15b2d4a4d81543aca918b2" kind="dir">
+    <compoundname>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets</compoundname>
+    <innerfile refid="6_builder_facets_8cpp">6BuilderFacets.cpp</innerfile>
+    <innerfile refid="_facets_8cpp">Facets.cpp</innerfile>
+    <innerfile refid="_person_8cpp">Person.cpp</innerfile>
+    <innerfile refid="_person_8h">Person.h</innerfile>
+    <innerfile refid="_person_address_builder_8h">PersonAddressBuilder.h</innerfile>
+    <innerfile refid="_person_builder_8cpp">PersonBuilder.cpp</innerfile>
+    <innerfile refid="_person_builder_8h">PersonBuilder.h</innerfile>
+    <innerfile refid="_person_job_builder_8h">PersonJobBuilder.h</innerfile>
+    <innerfile refid="6_builder_facets_2stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="6_builder_facets_2stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="6_builder_facets_2targetver_8h">targetver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/"/>
+  </compounddef>
+</doxygen>

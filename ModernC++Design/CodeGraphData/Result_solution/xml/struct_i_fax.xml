@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_i_fax" kind="struct" prot="public" abstract="yes">
+    <compoundname>IFax</compoundname>
+    <derivedcompoundref refid="struct_fax" prot="public" virt="non-virtual">Fax</derivedcompoundref>
+    <derivedcompoundref refid="struct_i_machine" prot="public" virt="non-virtual">IMachine</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_i_fax_1ac6559f51ae6155d222f881ef733e4012" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IFax::fax</definition>
+        <argsstring>(Document &amp;doc)=0</argsstring>
+        <name>fax</name>
+        <reimplementedby refid="struct_fax_1a6f6ba6839e7fd64b5707960db400a8c0">fax</reimplementedby>
+        <reimplementedby refid="struct_machine_1aa95e12eadae4b233d1e4535627223849">fax</reimplementedby>
+        <param>
+          <type>Document &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>Fax</label>
+        <link refid="struct_fax"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Machine</label>
+        <link refid="struct_machine"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IFax</label>
+        <link refid="struct_i_fax"/>
+      </node>
+      <node id="20">
+        <label>IMachine</label>
+        <link refid="struct_i_machine"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="58" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="57" bodyend="60"/>
+    <listofallmembers>
+      <member refid="struct_i_fax_1ac6559f51ae6155d222f881ef733e4012" prot="public" virt="pure-virtual"><scope>IFax</scope><name>fax</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

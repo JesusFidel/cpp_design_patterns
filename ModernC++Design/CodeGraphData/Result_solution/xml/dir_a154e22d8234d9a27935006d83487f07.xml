@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a154e22d8234d9a27935006d83487f07" kind="dir">
+    <compoundname>C:/shared/Courses/modernCppDesign/ModernC++Design</compoundname>
+    <innerdir refid="dir_4db3ae297b9491daf70254f7d8df8599">C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns</innerdir>
+    <innerdir refid="dir_bcbf8d7ecff232878aff36904f66686f">C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple</innerdir>
+    <innerdir refid="dir_5d2434b8e407f0c18f8e0cb6155fd172">C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple</innerdir>
+    <innerdir refid="dir_99fc8df84191d7f775e0b5f6e4007da7">C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple</innerdir>
+    <innerdir refid="dir_772aecf44c29ef92a6376b7471318118">C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple</innerdir>
+    <innerdir refid="dir_f3b503969a15b2d4a4d81543aca918b2">C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets</innerdir>
+    <innerdir refid="dir_7b45b909e97bf9237ea0a569e996746a">C:/shared/Courses/modernCppDesign/ModernC++Design/Builder</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/"/>
+  </compounddef>
+</doxygen>

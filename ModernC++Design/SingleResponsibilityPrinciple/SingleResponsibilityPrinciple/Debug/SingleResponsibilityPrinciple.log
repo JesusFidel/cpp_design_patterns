@@ -1,5 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SingleResponsibilityPrinciple.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  stdafx.cpp
-  SingleResponsibilityPrinciple.cpp
-  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
-  SingleResponsibilityPrinciple.vcxproj -> C:\shared\Udemy\ModernC++Design\SingleResponsibilityPrinciple\Debug\1SingleResponsibilityPrinciple.exe

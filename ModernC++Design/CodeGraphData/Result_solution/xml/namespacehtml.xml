@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacehtml" kind="namespace">
+    <compoundname>html</compoundname>
+    <innerclass refid="structhtml_1_1_tag" prot="public">html::Tag</innerclass>
+    <innerclass refid="structhtml_1_1_p" prot="public">html::P</innerclass>
+    <innerclass refid="structhtml_1_1_i_m_g" prot="public">html::IMG</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="26" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_person_builder_base" kind="class" prot="public">
+    <compoundname>PersonBuilderBase</compoundname>
+    <derivedcompoundref refid="class_person_address_builder" prot="public" virt="non-virtual">PersonAddressBuilder</derivedcompoundref>
+    <derivedcompoundref refid="class_person_builder" prot="public" virt="non-virtual">PersonBuilder</derivedcompoundref>
+    <derivedcompoundref refid="class_person_job_builder" prot="public" virt="non-virtual">PersonJobBuilder</derivedcompoundref>
+    <includes refid="_person_builder_8h" local="no">PersonBuilder.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_person" kindref="compound">Person</ref> &amp;</type>
+        <definition>Person&amp; PersonBuilderBase::person</definition>
+        <argsstring></argsstring>
+        <name>person</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" line="10" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_person_job_builder_1ada3e7923e1f190368a057fbd0e9d7564" compoundref="_person_job_builder_8h" startline="19" endline="23">PersonJobBuilder::as_a</referencedby>
+        <referencedby refid="class_person_address_builder_1a73ef851c9785a359d9a65b708e8b661a" compoundref="_person_address_builder_8h" startline="13" endline="17">PersonAddressBuilder::at</referencedby>
+        <referencedby refid="class_person_job_builder_1afe377bb08a0eb99dbd06ef8aec34d487" compoundref="_person_job_builder_8h" startline="13" endline="17">PersonJobBuilder::at</referencedby>
+        <referencedby refid="class_person_job_builder_1ac1a43391ce152d6fe6abd9de89b39301" compoundref="_person_job_builder_8h" startline="25" endline="29">PersonJobBuilder::earning</referencedby>
+        <referencedby refid="class_person_address_builder_1a8b32ff280491f2d4e0718b34579243f6" compoundref="_person_address_builder_8h" startline="25" endline="29">PersonAddressBuilder::in</referencedby>
+        <referencedby refid="class_person_builder_base_1ac09ad8bf36acea5d5dfda54c45d26b5d" compoundref="_person_builder_8cpp" startline="5" endline="8">lives</referencedby>
+        <referencedby refid="class_person_builder_base_1a9d06d1c8ed094e500a579a04a11a208f" compoundref="_person_builder_8h" startline="16" endline="19">operator Person</referencedby>
+        <referencedby refid="class_person_address_builder_1a25b35a92c342d75897b2bd7cca093089" compoundref="_person_address_builder_8h" startline="19" endline="23">PersonAddressBuilder::with_postcode</referencedby>
+        <referencedby refid="class_person_builder_base_1a4115dc6c81c43780b9cc91f1019c7fc3" compoundref="_person_builder_8cpp" startline="10" endline="13">works</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_person_builder_base_1a582b9f71f3db57cab62d74ab5fd8bb9b" prot="protected" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PersonBuilderBase::PersonBuilderBase</definition>
+        <argsstring>(Person &amp;person)</argsstring>
+        <name>PersonBuilderBase</name>
+        <param>
+          <type><ref refid="class_person" kindref="compound">Person</ref> &amp;</type>
+          <declname>person</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" line="11" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_person_builder_base_1a9d06d1c8ed094e500a579a04a11a208f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PersonBuilderBase::operator Person</definition>
+        <argsstring>() const </argsstring>
+        <name>operator Person</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" line="16" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" bodystart="16" bodyend="19"/>
+        <references refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" compoundref="_person_builder_8h" startline="10">person</references>
+      </memberdef>
+      <memberdef kind="function" id="class_person_builder_base_1ac09ad8bf36acea5d5dfda54c45d26b5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_person_address_builder" kindref="compound">PersonAddressBuilder</ref></type>
+        <definition>PersonAddressBuilder PersonBuilderBase::lives</definition>
+        <argsstring>() const </argsstring>
+        <name>lives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" line="23" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.cpp" bodystart="5" bodyend="8"/>
+        <references refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" compoundref="_person_builder_8h" startline="10">person</references>
+        <referencedby refid="_facets_8cpp_1a224859fe3f1629955ffe2a5279963b64" compoundref="_facets_8cpp" startline="13" endline="22">main__</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_person_builder_base_1a4115dc6c81c43780b9cc91f1019c7fc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_person_job_builder" kindref="compound">PersonJobBuilder</ref></type>
+        <definition>PersonJobBuilder PersonBuilderBase::works</definition>
+        <argsstring>() const </argsstring>
+        <name>works</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" line="24" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.cpp" bodystart="10" bodyend="13"/>
+        <references refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" compoundref="_person_builder_8h" startline="10">person</references>
+        <referencedby refid="_facets_8cpp_1a224859fe3f1629955ffe2a5279963b64" compoundref="_facets_8cpp" startline="13" endline="22">main__</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>PersonAddressBuilder</label>
+        <link refid="class_person_address_builder"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>PersonJobBuilder</label>
+        <link refid="class_person_job_builder"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>PersonBuilder</label>
+        <link refid="class_person_builder"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>PersonBuilderBase</label>
+        <link refid="class_person_builder_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="100">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="97">
+        <label>PersonBuilderBase</label>
+        <link refid="class_person_builder_base"/>
+        <childnode refid="98" relation="usage">
+          <edgelabel>person</edgelabel>
+        </childnode>
+      </node>
+      <node id="98">
+        <label>Person</label>
+        <link refid="class_person"/>
+        <childnode refid="99" relation="usage">
+          <edgelabel>post_code</edgelabel>
+          <edgelabel>position</edgelabel>
+          <edgelabel>street_address</edgelabel>
+          <edgelabel>city</edgelabel>
+          <edgelabel>company_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="99">
+        <label>std::string</label>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" line="8" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_person_builder_base_1ac09ad8bf36acea5d5dfda54c45d26b5d" prot="public" virt="non-virtual"><scope>PersonBuilderBase</scope><name>lives</name></member>
+      <member refid="class_person_builder_base_1a9d06d1c8ed094e500a579a04a11a208f" prot="public" virt="non-virtual"><scope>PersonBuilderBase</scope><name>operator Person</name></member>
+      <member refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" prot="protected" virt="non-virtual"><scope>PersonBuilderBase</scope><name>person</name></member>
+      <member refid="class_person_builder_base_1a582b9f71f3db57cab62d74ab5fd8bb9b" prot="protected" virt="non-virtual"><scope>PersonBuilderBase</scope><name>PersonBuilderBase</name></member>
+      <member refid="class_person_builder_base_1a4115dc6c81c43780b9cc91f1019c7fc3" prot="public" virt="non-virtual"><scope>PersonBuilderBase</scope><name>works</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

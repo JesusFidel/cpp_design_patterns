@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="0_introduction_to_modern_cpp_design_patterns_2stdafx_8h" kind="file">
+    <compoundname>stdafx.h</compoundname>
+    <includes refid="0_introduction_to_modern_cpp_design_patterns_2targetver_8h" local="yes">targetver.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">tchar.h</includes>
+    <includedby refid="0_introduction_to_modern_cpp_design_patterns_8cpp" local="yes">C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/0IntroductionToModernCppDesignPatterns.cpp</includedby>
+    <includedby refid="0_introduction_to_modern_cpp_design_patterns_2stdafx_8cpp" local="yes">C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/stdafx.cpp</includedby>
+    <incdepgraph>
+      <node id="88">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="87">
+        <label>targetver.h</label>
+        <link refid="0_introduction_to_modern_cpp_design_patterns_2targetver_8h"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>tchar.h</label>
+      </node>
+      <node id="86">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/stdafx.h</label>
+        <link refid="0IntroductionToModernCppDesignPatterns/stdafx.h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="93">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/stdafx.cpp</label>
+        <link refid="0_introduction_to_modern_cpp_design_patterns_2stdafx_8cpp"/>
+      </node>
+      <node id="92">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/0IntroductionToModernCppDesignPatterns.cpp</label>
+        <link refid="0_introduction_to_modern_cpp_design_patterns_8cpp"/>
+      </node>
+      <node id="91">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/stdafx.h</label>
+        <link refid="0IntroductionToModernCppDesignPatterns/stdafx.h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.h<sp/>:<sp/>include<sp/>file<sp/>for<sp/>standard<sp/>system<sp/>include<sp/>files,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>or<sp/>project<sp/>specific<sp/>include<sp/>files<sp/>that<sp/>are<sp/>used<sp/>frequently,<sp/>but</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>are<sp/>changed<sp/>infrequently</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="0_introduction_to_modern_cpp_design_patterns_2targetver_8h" kindref="compound">targetver.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;tchar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>reference<sp/>additional<sp/>headers<sp/>your<sp/>program<sp/>requires<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/stdafx.h"/>
+  </compounddef>
+</doxygen>

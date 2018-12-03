@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bcbf8d7ecff232878aff36904f66686f" kind="dir">
+    <compoundname>C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple</compoundname>
+    <innerfile refid="_single_responsibility_principle_8cpp">SingleResponsibilityPrinciple.cpp</innerfile>
+    <innerfile refid="1_single_responsibility_principle_2stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="1_single_responsibility_principle_2stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="1_single_responsibility_principle_2targetver_8h">targetver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/"/>
+  </compounddef>
+</doxygen>

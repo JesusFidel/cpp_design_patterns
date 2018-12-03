@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_i_machine" kind="struct" prot="public">
+    <compoundname>IMachine</compoundname>
+    <basecompoundref refid="struct_i_printer" prot="public" virt="non-virtual">IPrinter</basecompoundref>
+    <basecompoundref refid="struct_i_scanner" prot="public" virt="non-virtual">IScanner</basecompoundref>
+    <basecompoundref refid="struct_i_fax" prot="public" virt="non-virtual">IFax</basecompoundref>
+    <derivedcompoundref refid="struct_machine" prot="public" virt="non-virtual">Machine</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>IScanner</label>
+        <link refid="struct_i_scanner"/>
+      </node>
+      <node id="27">
+        <label>Machine</label>
+        <link refid="struct_machine"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>IFax</label>
+        <link refid="struct_i_fax"/>
+      </node>
+      <node id="24">
+        <label>IPrinter</label>
+        <link refid="struct_i_printer"/>
+      </node>
+      <node id="23">
+        <label>IMachine</label>
+        <link refid="struct_i_machine"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="30">
+        <label>IScanner</label>
+        <link refid="struct_i_scanner"/>
+      </node>
+      <node id="31">
+        <label>IFax</label>
+        <link refid="struct_i_fax"/>
+      </node>
+      <node id="29">
+        <label>IPrinter</label>
+        <link refid="struct_i_printer"/>
+      </node>
+      <node id="28">
+        <label>IMachine</label>
+        <link refid="struct_i_machine"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="79" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="79" bodyend="79"/>
+    <listofallmembers>
+      <member refid="struct_i_fax_1ac6559f51ae6155d222f881ef733e4012" prot="public" virt="pure-virtual"><scope>IMachine</scope><name>fax</name></member>
+      <member refid="struct_i_printer_1ab87b618c9faa86546f1d32429c556b35" prot="public" virt="pure-virtual"><scope>IMachine</scope><name>print</name></member>
+      <member refid="struct_i_scanner_1aa46440bde5f3975e1bd8afa96508fcf0" prot="public" virt="pure-virtual"><scope>IMachine</scope><name>scan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

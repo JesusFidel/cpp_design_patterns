@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c80a401a5398daf8b9aadaa3dd47cc02" kind="dir">
+    <compoundname>C:/shared/Courses/modernCppDesign</compoundname>
+    <innerdir refid="dir_a154e22d8234d9a27935006d83487f07">C:/shared/Courses/modernCppDesign/ModernC++Design</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/"/>
+  </compounddef>
+</doxygen>

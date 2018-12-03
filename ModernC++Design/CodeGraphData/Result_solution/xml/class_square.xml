@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_square" kind="class" prot="public">
+    <compoundname>Square</compoundname>
+    <basecompoundref refid="class_rectangle" prot="public" virt="non-virtual">Rectangle</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_square_1acce8dcb89c0821481770c871102ca98c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Square::Square</definition>
+        <argsstring>(int size)</argsstring>
+        <name>Square</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="43" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_square_1a5c2c3765c41f94587bfd3aaf9285bcb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Square::setWidth</definition>
+        <argsstring>(int width) override</argsstring>
+        <name>setWidth</name>
+        <reimplements refid="class_rectangle_1ab4a6d24869d1c89d2cdce5572fb4971a">setWidth</reimplements>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="45" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_square_1a73d5a7b6ceaeb0689b855faffc266772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Square::setHeigth</definition>
+        <argsstring>(int height) override</argsstring>
+        <name>setHeigth</name>
+        <reimplements refid="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8">setHeigth</reimplements>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="49" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="135">
+        <label>Rectangle</label>
+        <link refid="class_rectangle"/>
+      </node>
+      <node id="134">
+        <label>Square</label>
+        <link refid="class_square"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="137">
+        <label>Rectangle</label>
+        <link refid="class_rectangle"/>
+      </node>
+      <node id="136">
+        <label>Square</label>
+        <link refid="class_square"/>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="41" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="40" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_rectangle_1abde93b6e0587052d64b64a44d6d870dd" prot="public" virt="virtual"><scope>Square</scope><name>area</name></member>
+      <member refid="class_rectangle_1a0d94cab2723e3426688bfe2a3d14816e" prot="public" virt="virtual"><scope>Square</scope><name>getHeight</name></member>
+      <member refid="class_rectangle_1aab391a58ba649f72b16cb7452a49c8ff" prot="public" virt="virtual"><scope>Square</scope><name>getWidth</name></member>
+      <member refid="class_rectangle_1ac564db1ed0dd61dd82a5276399bc72ad" prot="protected" virt="non-virtual"><scope>Square</scope><name>height</name></member>
+      <member refid="class_rectangle_1a6075b7065a6cfb2e4007030d07f0d7be" prot="public" virt="non-virtual"><scope>Square</scope><name>Rectangle</name></member>
+      <member refid="class_square_1a73d5a7b6ceaeb0689b855faffc266772" prot="public" virt="virtual"><scope>Square</scope><name>setHeigth</name></member>
+      <member refid="class_square_1a5c2c3765c41f94587bfd3aaf9285bcb5" prot="public" virt="virtual"><scope>Square</scope><name>setWidth</name></member>
+      <member refid="class_square_1acce8dcb89c0821481770c871102ca98c" prot="public" virt="non-virtual"><scope>Square</scope><name>Square</name></member>
+      <member refid="class_rectangle_1a019ed802523594472e0032953b6062d4" prot="protected" virt="non-virtual"><scope>Square</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="3_liskov_substitution_principle_8cpp" kind="file">
+    <compoundname>3LiskovSubstitutionPrinciple.cpp</compoundname>
+    <includes refid="3_liskov_substitution_principle_2stdafx_8h" local="yes">stdafx.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="179">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="178">
+        <label>targetver.h</label>
+        <link refid="3_liskov_substitution_principle_2targetver_8h"/>
+        <childnode refid="179" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp</label>
+        <link refid="3LiskovSubstitutionPrinciple.cpp"/>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>iostream</label>
+      </node>
+      <node id="181">
+        <label>tchar.h</label>
+      </node>
+      <node id="180">
+        <label>stdio.h</label>
+      </node>
+      <node id="177">
+        <label>stdafx.h</label>
+        <link refid="3_liskov_substitution_principle_2stdafx_8h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_rectangle" prot="public">Rectangle</innerclass>
+    <innerclass refid="class_square" prot="public">Square</innerclass>
+    <innerclass refid="struct_rectangle_factory" prot="public">RectangleFactory</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void process</definition>
+        <argsstring>(Rectangle &amp;r)</argsstring>
+        <name>process</name>
+        <param>
+          <type><ref refid="class_rectangle" kindref="compound">Rectangle</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="55" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="55" bodyend="62"/>
+        <references refid="class_rectangle_1abde93b6e0587052d64b64a44d6d870dd" compoundref="3_liskov_substitution_principle_8cpp" startline="33" endline="33">Rectangle::area</references>
+        <references refid="class_rectangle_1aab391a58ba649f72b16cb7452a49c8ff" compoundref="3_liskov_substitution_principle_8cpp" startline="16" endline="19">Rectangle::getWidth</references>
+        <references refid="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8" compoundref="3_liskov_substitution_principle_8cpp" startline="28" endline="31">Rectangle::setHeigth</references>
+        <referencedby refid="3_liskov_substitution_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="3_liskov_substitution_principle_8cpp" startline="73" endline="100">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="3_liskov_substitution_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="73" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="73" bodyend="100"/>
+        <references refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" compoundref="3_liskov_substitution_principle_8cpp" startline="55" endline="62">process</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>3LiskovSubstitutionPrinciple.cpp<sp/>:<sp/>Defines<sp/>the<sp/>entry<sp/>point<sp/>for<sp/>the<sp/>console<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="3_liskov_substitution_principle_2stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_rectangle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_rectangle" kindref="compound">Rectangle</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_rectangle_1a019ed802523594472e0032953b6062d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_rectangle_1a019ed802523594472e0032953b6062d4" kindref="member">width</ref>,<sp/>height;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="class_rectangle_1a6075b7065a6cfb2e4007030d07f0d7be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_rectangle_1a6075b7065a6cfb2e4007030d07f0d7be" kindref="member">Rectangle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)<sp/>:<sp/>width(width),<sp/>height(height){}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_rectangle_1aab391a58ba649f72b16cb7452a49c8ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_rectangle_1aab391a58ba649f72b16cb7452a49c8ff" kindref="member">getWidth</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="17"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>width;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20" refid="class_rectangle_1ab4a6d24869d1c89d2cdce5572fb4971a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_rectangle_1ab4a6d24869d1c89d2cdce5572fb4971a" kindref="member">setWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rectangle_1a019ed802523594472e0032953b6062d4" kindref="member">Rectangle::width</ref><sp/>=<sp/>width;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24" refid="class_rectangle_1a0d94cab2723e3426688bfe2a3d14816e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_rectangle_1a0d94cab2723e3426688bfe2a3d14816e" kindref="member">getHeight</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="25"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>height;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28" refid="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8" kindref="member">setHeigth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rectangle_1ac564db1ed0dd61dd82a5276399bc72ad" kindref="member">Rectangle::height</ref><sp/>=<sp/>height;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_rectangle_1abde93b6e0587052d64b64a44d6d870dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_rectangle_1abde93b6e0587052d64b64a44d6d870dd" kindref="member">area</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>width<sp/>*<sp/>height;<sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//2.2<sp/>Unfortunately<sp/>what<sp/>we&apos;ve<sp/>just<sp/>done<sp/>is<sp/>we&apos;ve<sp/>violated<sp/>Liskov<sp/>Substitution<sp/>principle<sp/>which<sp/>states</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>that<sp/>if<sp/>you<sp/>have<sp/>a<sp/>function<sp/>with<sp/>takes<sp/>a<sp/>base<sp/>class,<sp/>any<sp/>derived<sp/>class<sp/>should<sp/>be<sp/>able<sp/>to<sp/>substituted</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>into<sp/>the<sp/>function<sp/>process<sp/>without<sp/>any<sp/>problem.<sp/>Unfortunately<sp/>we<sp/>are<sp/>going<sp/>to<sp/>have<sp/>a<sp/>problem<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_square" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_square" kindref="compound">Square</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_rectangle" kindref="compound">Rectangle</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="43" refid="class_square_1acce8dcb89c0821481770c871102ca98c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_square_1acce8dcb89c0821481770c871102ca98c" kindref="member">Square</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size)<sp/>:<sp/><ref refid="class_rectangle" kindref="compound">Rectangle</ref>(size,<sp/>size)<sp/>{}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_square_1a5c2c3765c41f94587bfd3aaf9285bcb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_square_1a5c2c3765c41f94587bfd3aaf9285bcb5" kindref="member">setWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="46"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;width<sp/>=<sp/>this-&gt;height<sp/>=<sp/>width;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49" refid="class_square_1a73d5a7b6ceaeb0689b855faffc266772" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_square_1a73d5a7b6ceaeb0689b855faffc266772" kindref="member">setHeigth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="50"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;width<sp/>=<sp/>this-&gt;height<sp/>=<sp/>height;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" kindref="member">process</ref>(<ref refid="class_rectangle" kindref="compound">Rectangle</ref><sp/>&amp;r)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>r.<ref refid="class_rectangle_1aab391a58ba649f72b16cb7452a49c8ff" kindref="member">getWidth</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>r.<ref refid="class_rectangle_1ab24e66f22d1f90d39225dc683f00ebd8" kindref="member">setHeigth</ref>(10);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Excepted<sp/>area<sp/>=<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>(w<sp/>*<sp/>10)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>got<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>r.<ref refid="class_rectangle_1abde93b6e0587052d64b64a44d6d870dd" kindref="member">area</ref>()<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//2.5<sp/>this<sp/>is<sp/>a<sp/>more<sp/>sensible<sp/>way<sp/>that<sp/>would<sp/>not<sp/>break<sp/>the<sp/>Liskov<sp/>Substitution<sp/>principle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="struct_rectangle_factory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_rectangle_factory" kindref="compound">RectangleFactory</ref></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_rectangle" kindref="compound">Rectangle</ref><sp/>create_rectangle(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_rectangle" kindref="compound">Rectangle</ref><sp/>create_square(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//the<sp/>goal<sp/>of<sp/>this<sp/>principle<sp/>is<sp/>to<sp/>specify<sp/>that<sp/>subtypes<sp/>should<sp/>be</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//immediately<sp/>substitutable<sp/>for<sp/>their<sp/>base<sp/>types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="3_liskov_substitution_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="3_liskov_substitution_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_rectangle" kindref="compound">Rectangle</ref><sp/>r{<sp/>3,4<sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" kindref="member">process</ref>(r);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Working<sp/>with<sp/>a<sp/>rectangle,<sp/>we<sp/>try<sp/>to<sp/>get<sp/>the<sp/>area.<sp/>We<sp/>are<sp/>clear<sp/>setting<sp/>width<sp/>and<sp/>height,<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>there<sp/>is<sp/>not<sp/>problem<sp/>with<sp/>the<sp/>expected<sp/>area.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//2.1<sp/>Now,<sp/>lets<sp/>do<sp/>another<sp/>class<sp/>that<sp/>inherits<sp/>from<sp/>rectangle,<sp/>a<sp/>square</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//2.3<sp/><sp/>Taking<sp/>a<sp/>look<sp/>into<sp/>process,<sp/>we<sp/>see<sp/>that<sp/>we<sp/>setheight(10),<sp/>we<sp/>are<sp/>overwritting<sp/>the<sp/>square.size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_square" kindref="compound">Square</ref><sp/>sq{<sp/>5<sp/>};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="3_liskov_substitution_principle_8cpp_1a999bb6c685e58c68068dedc3b3f9e14b" kindref="member">process</ref>(sq);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//2.4<sp/>we&apos;ve<sp/>broken<sp/>the<sp/>Liskov<sp/>Substitution<sp/>principle,<sp/>with<sp/>this<sp/>example.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//2.5<sp/>how<sp/>to<sp/>fix<sp/>this<sp/>problem?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>idea<sp/>of<sp/>inheriting<sp/>a<sp/>square<sp/>from<sp/>a<sp/>rectangle<sp/>is<sp/>not<sp/>the<sp/>best<sp/>idea<sp/>because,<sp/>in<sp/>terms<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>language,<sp/>a<sp/>square<sp/>is<sp/>in<sp/>fact<sp/>a<sp/>rectangle,<sp/>so<sp/>you<sp/>can<sp/>say<sp/>a<sp/>square<sp/>should<sp/>inherit<sp/>from</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>a<sp/>rectangle<sp/>but<sp/>you<sp/>could<sp/>do<sp/>it<sp/>differently,<sp/>you<sp/>could<sp/>keep<sp/>Rectangle<sp/>with<sp/>a<sp/>boolean<sp/>flag</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>saying<sp/>if<sp/>it<sp/>is<sp/>a<sp/>square<sp/>or<sp/>not,<sp/>or<sp/>you<sp/>can<sp/>,<sp/>if<sp/>you<sp/>want<sp/>to<sp/>construct<sp/>squares<sp/>and<sp/>rectangles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>to<sp/>make<sp/>a<sp/>factory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//2.6<sp/>To<sp/>reiterate<sp/>the<sp/>idea<sp/>is<sp/>that<sp/>you<sp/>should<sp/>be<sp/>able<sp/>to<sp/>substitute<sp/>a<sp/>derived<sp/>class,<sp/>in<sp/>this</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//case<sp/>is<sp/>square,<sp/>you<sp/>should<sp/>be<sp/>able<sp/>to<sp/>substitute<sp/>it<sp/>into<sp/>any<sp/>location<sp/>where<sp/>a<sp/>base<sp/>class<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//is<sp/>being<sp/>used<sp/>like<sp/>here:<sp/>process(Rectangle&amp;<sp/>r),<sp/>and<sp/>with<sp/>this<sp/>design<sp/>is<sp/>unfortunately<sp/>impossible.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>getchar();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp"/>
+  </compounddef>
+</doxygen>

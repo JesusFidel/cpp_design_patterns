@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_scanner" kind="struct" prot="public">
+    <compoundname>Scanner</compoundname>
+    <basecompoundref refid="struct_i_scanner" prot="public" virt="non-virtual">IScanner</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_scanner_1a45095c9bc14f208a7950fd170e8379b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Scanner::scan</definition>
+        <argsstring>(Document &amp;doc) override</argsstring>
+        <name>scan</name>
+        <reimplements refid="struct_i_scanner_1aa46440bde5f3975e1bd8afa96508fcf0">scan</reimplements>
+        <param>
+          <type>Document &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="70" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="124">
+        <label>IScanner</label>
+        <link refid="struct_i_scanner"/>
+      </node>
+      <node id="123">
+        <label>Scanner</label>
+        <link refid="struct_scanner"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="126">
+        <label>IScanner</label>
+        <link refid="struct_i_scanner"/>
+      </node>
+      <node id="125">
+        <label>Scanner</label>
+        <link refid="struct_scanner"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" line="69" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/4InterfaceSegregationPrinciple/4InterfaceSegregationPrinciple.cpp" bodystart="68" bodyend="71"/>
+    <listofallmembers>
+      <member refid="struct_scanner_1a45095c9bc14f208a7950fd170e8379b4" prot="public" virt="virtual"><scope>Scanner</scope><name>scan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

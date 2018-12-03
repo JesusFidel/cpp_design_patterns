@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4db3ae297b9491daf70254f7d8df8599" kind="dir">
+    <compoundname>C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns</compoundname>
+    <innerfile refid="0_introduction_to_modern_cpp_design_patterns_8cpp">0IntroductionToModernCppDesignPatterns.cpp</innerfile>
+    <innerfile refid="0_introduction_to_modern_cpp_design_patterns_2stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="0_introduction_to_modern_cpp_design_patterns_2stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="0_introduction_to_modern_cpp_design_patterns_2targetver_8h">targetver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/"/>
+  </compounddef>
+</doxygen>

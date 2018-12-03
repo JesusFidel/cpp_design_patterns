@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_size_specification" kind="struct" prot="public">
+    <compoundname>SizeSpecification</compoundname>
+    <basecompoundref refid="struct_specification" prot="public" virt="non-virtual">Specification&lt; Product &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_size_specification_1a4643be27a3521396c517bc3705b125cc" prot="public" static="no" mutable="no">
+        <type><ref refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4" kindref="member">Size</ref></type>
+        <definition>Size SizeSpecification::m_size</definition>
+        <argsstring></argsstring>
+        <name>m_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="135" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_size_specification_1ade286302d2999f5ae4494cf2fa4f0674" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SizeSpecification::SizeSpecification</definition>
+        <argsstring>(Size size)</argsstring>
+        <name>SizeSpecification</name>
+        <param>
+          <type><ref refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4" kindref="member">Size</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="136" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_size_specification_1a0b2d8d5be0f5a53ee88bfb984172f8de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool SizeSpecification::is_satisfied</definition>
+        <argsstring>(Product *item) override</argsstring>
+        <name>is_satisfied</name>
+        <reimplements refid="struct_specification_1a509392a90d0c98f045a8b8287b0799a2">is_satisfied</reimplements>
+        <param>
+          <type><ref refid="struct_product" kindref="compound">Product</ref> *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="138" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="138" bodyend="140"/>
+        <references refid="struct_product_1a4dfd34f7d658e42d72efa0679e96cdb3" compoundref="2_open-_closed_principle_8cpp" startline="25">Product::size</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="127">
+        <label>SizeSpecification</label>
+        <link refid="struct_size_specification"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>Specification&lt; Product &gt;</label>
+        <link refid="struct_specification"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="129">
+        <label>SizeSpecification</label>
+        <link refid="struct_size_specification"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>Specification&lt; Product &gt;</label>
+        <link refid="struct_specification"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="134" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="133" bodyend="142"/>
+    <listofallmembers>
+      <member refid="struct_size_specification_1a0b2d8d5be0f5a53ee88bfb984172f8de" prot="public" virt="virtual"><scope>SizeSpecification</scope><name>is_satisfied</name></member>
+      <member refid="struct_size_specification_1a4643be27a3521396c517bc3705b125cc" prot="public" virt="non-virtual"><scope>SizeSpecification</scope><name>m_size</name></member>
+      <member refid="struct_specification_1a1b75a14a5836043868e13779366c4f6c" prot="public" virt="non-virtual"><scope>SizeSpecification</scope><name>operator&amp;&amp;</name></member>
+      <member refid="struct_size_specification_1ade286302d2999f5ae4494cf2fa4f0674" prot="public" virt="non-virtual"><scope>SizeSpecification</scope><name>SizeSpecification</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

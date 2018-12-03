@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_person_address_builder_8h" kind="file">
+    <compoundname>PersonAddressBuilder.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="_facets_8cpp" local="yes">C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp</includedby>
+    <includedby refid="_person_builder_8cpp" local="yes">C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.cpp</includedby>
+    <incdepgraph>
+      <node id="226">
+        <label>string</label>
+      </node>
+      <node id="225">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonAddressBuilder.h</label>
+        <link refid="PersonAddressBuilder.h"/>
+        <childnode refid="226" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="228">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp</label>
+        <link refid="_facets_8cpp"/>
+      </node>
+      <node id="227">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonAddressBuilder.h</label>
+        <link refid="PersonAddressBuilder.h"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.cpp</label>
+        <link refid="_person_builder_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_person_address_builder" prot="public">PersonAddressBuilder</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_person_address_builder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_person_address_builder" kindref="compound">PersonAddressBuilder</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_person_builder_base" kindref="compound">PersonBuilderBase</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_person_address_builder_1a541c3ca11645b5d016721c037601567f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_person_address_builder" kindref="compound">PersonAddressBuilder</ref><sp/><ref refid="class_person_address_builder_1a541c3ca11645b5d016721c037601567f" kindref="member">Self</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8" refid="class_person_address_builder_1aa899fb0cf2132516180cbc05c2d933ae" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_person_address_builder_1aa899fb0cf2132516180cbc05c2d933ae" kindref="member">PersonAddressBuilder</ref>(<ref refid="class_person" kindref="compound">Person</ref>&amp;<sp/><ref refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" kindref="member">person</ref>)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>:<sp/><ref refid="class_person_builder_base" kindref="compound">PersonBuilderBase</ref>{person}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_person_address_builder_1a73ef851c9785a359d9a65b708e8b661a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_person_address_builder" kindref="compound">Self</ref>&amp;<sp/><ref refid="class_person_address_builder_1a73ef851c9785a359d9a65b708e8b661a" kindref="member">at</ref>(std::string<sp/>street_address)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" kindref="member">person</ref>.<ref refid="class_person_1ad13c19e25f45bd461dbeb6d3f8720c2a" kindref="member">street_address</ref><sp/>=<sp/>street_address;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_person_address_builder_1a25b35a92c342d75897b2bd7cca093089" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_person_address_builder" kindref="compound">Self</ref>&amp;<sp/><ref refid="class_person_address_builder_1a25b35a92c342d75897b2bd7cca093089" kindref="member">with_postcode</ref>(std::string<sp/>post_code)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" kindref="member">person</ref>.<ref refid="class_person_1a324df17ab2e662f7d06f66d20eff79b2" kindref="member">post_code</ref><sp/>=<sp/>post_code;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_person_address_builder_1a8b32ff280491f2d4e0718b34579243f6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_person_address_builder" kindref="compound">Self</ref>&amp;<sp/><ref refid="class_person_address_builder_1a8b32ff280491f2d4e0718b34579243f6" kindref="member">in</ref>(std::string<sp/>city)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_builder_base_1a7b0a28a3ae84c732ac9ba549bced50ec" kindref="member">person</ref>.<ref refid="class_person_1ace2b0c261b00f4ec7d95b08ec2e8e59d" kindref="member">city</ref><sp/>=<sp/>city;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonAddressBuilder.h"/>
+  </compounddef>
+</doxygen>

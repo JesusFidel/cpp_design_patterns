@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structhtml_1_1_tag" kind="struct" prot="public">
+    <compoundname>html::Tag</compoundname>
+    <derivedcompoundref refid="structhtml_1_1_i_m_g" prot="public" virt="non-virtual">html::IMG</derivedcompoundref>
+    <derivedcompoundref refid="structhtml_1_1_p" prot="public" virt="non-virtual">html::P</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhtml_1_1_tag_1aaa3fe8080ca48c29d0c24c155d4ca5ac" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string html::Tag::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="29" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhtml_1_1_tag_1a809f887c21590d48635c36832f7cec98" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string html::Tag::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="30" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhtml_1_1_tag_1a786284f08c41547d9af0643aeedfe9be" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structhtml_1_1_tag" kindref="compound">Tag</ref> &gt;</type>
+        <definition>vector&lt;Tag&gt; html::Tag::children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="31" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhtml_1_1_tag_1a64186bcf0439c7bc9f6bb3d4f6258522" prot="public" static="no" mutable="no">
+        <type>vector&lt; pair&lt; string, string &gt; &gt;</type>
+        <definition>vector&lt;pair&lt;string, string&gt; &gt; html::Tag::attributes</definition>
+        <argsstring></argsstring>
+        <name>attributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="32" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structhtml_1_1_tag_1ac75087a56074c2118db675963f06b4ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const Tag &amp;tag)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structhtml_1_1_tag" kindref="compound">Tag</ref> &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="34" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="34" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structhtml_1_1_tag_1a097a236f19501929aa35f426b2a4f769" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>html::Tag::Tag</definition>
+        <argsstring>(const string &amp;name, const string &amp;text)</argsstring>
+        <name>Tag</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="62" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="structhtml_1_1_tag_1a3bc262fc4690fb941dddaef4f06718f1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>html::Tag::Tag</definition>
+        <argsstring>(const string &amp;name, const vector&lt; Tag &gt; &amp;children)</argsstring>
+        <name>Tag</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const vector&lt; <ref refid="structhtml_1_1_tag" kindref="compound">Tag</ref> &gt; &amp;</type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="69" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="69" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="140">
+        <label>html::P</label>
+        <link refid="structhtml_1_1_p"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>html::Tag</label>
+        <link refid="structhtml_1_1_tag"/>
+      </node>
+      <node id="139">
+        <label>html::IMG</label>
+        <link refid="structhtml_1_1_i_m_g"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="141">
+        <label>html::Tag</label>
+        <link refid="structhtml_1_1_tag"/>
+        <childnode refid="142" relation="usage">
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>name</edgelabel>
+          <edgelabel>text</edgelabel>
+        </childnode>
+        <childnode refid="145" relation="usage">
+          <edgelabel>attributes</edgelabel>
+        </childnode>
+      </node>
+      <node id="144">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="145">
+        <label>std::vector&lt; pair&lt; string, string &gt; &gt;</label>
+      </node>
+      <node id="142">
+        <label>std::vector&lt; html::Tag &gt;</label>
+        <childnode refid="141" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="143">
+        <label>std::string</label>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" line="28" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/Builder/Builder/Builder.cpp" bodystart="27" bodyend="74"/>
+    <listofallmembers>
+      <member refid="structhtml_1_1_tag_1a64186bcf0439c7bc9f6bb3d4f6258522" prot="public" virt="non-virtual"><scope>html::Tag</scope><name>attributes</name></member>
+      <member refid="structhtml_1_1_tag_1a786284f08c41547d9af0643aeedfe9be" prot="public" virt="non-virtual"><scope>html::Tag</scope><name>children</name></member>
+      <member refid="structhtml_1_1_tag_1aaa3fe8080ca48c29d0c24c155d4ca5ac" prot="public" virt="non-virtual"><scope>html::Tag</scope><name>name</name></member>
+      <member refid="structhtml_1_1_tag_1ac75087a56074c2118db675963f06b4ed" prot="public" virt="non-virtual"><scope>html::Tag</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structhtml_1_1_tag_1a097a236f19501929aa35f426b2a4f769" prot="protected" virt="non-virtual"><scope>html::Tag</scope><name>Tag</name></member>
+      <member refid="structhtml_1_1_tag_1a3bc262fc4690fb941dddaef4f06718f1" prot="protected" virt="non-virtual"><scope>html::Tag</scope><name>Tag</name></member>
+      <member refid="structhtml_1_1_tag_1a809f887c21590d48635c36832f7cec98" prot="public" virt="non-virtual"><scope>html::Tag</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

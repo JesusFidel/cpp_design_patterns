@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_product" kind="struct" prot="public">
+    <compoundname>Product</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_product_1acc9bddcf74112d85a6dc231db2269b8d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Product::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="23" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_product_1a12eef43b4dc615d569d2b07760d10bc1" prot="public" static="no" mutable="no">
+        <type><ref refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
+        <definition>Color Product::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="24" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="24" bodyend="-1"/>
+        <referencedby refid="struct_color_specification_1a2e999c507c773439e95f1766e17bd538" compoundref="2_open-_closed_principle_8cpp" startline="127" endline="129">ColorSpecification::is_satisfied</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_product_1a4dfd34f7d658e42d72efa0679e96cdb3" prot="public" static="no" mutable="no">
+        <type><ref refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4" kindref="member">Size</ref></type>
+        <definition>Size Product::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="25" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="struct_size_specification_1a0b2d8d5be0f5a53ee88bfb984172f8de" compoundref="2_open-_closed_principle_8cpp" startline="138" endline="140">SizeSpecification::is_satisfied</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="113">
+        <label>Product</label>
+        <link refid="struct_product"/>
+        <childnode refid="114" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="115">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="114">
+        <label>std::string</label>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="22" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="struct_product_1a12eef43b4dc615d569d2b07760d10bc1" prot="public" virt="non-virtual"><scope>Product</scope><name>color</name></member>
+      <member refid="struct_product_1acc9bddcf74112d85a6dc231db2269b8d" prot="public" virt="non-virtual"><scope>Product</scope><name>name</name></member>
+      <member refid="struct_product_1a4dfd34f7d658e42d72efa0679e96cdb3" prot="public" virt="non-virtual"><scope>Product</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

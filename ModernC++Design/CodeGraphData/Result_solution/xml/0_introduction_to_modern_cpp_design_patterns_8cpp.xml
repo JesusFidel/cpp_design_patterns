@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="0_introduction_to_modern_cpp_design_patterns_8cpp" kind="file">
+    <compoundname>0IntroductionToModernCppDesignPatterns.cpp</compoundname>
+    <includes refid="0_introduction_to_modern_cpp_design_patterns_2stdafx_8h" local="yes">stdafx.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="0">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/0IntroductionToModernCppDesignPatterns.cpp</label>
+        <link refid="0IntroductionToModernCppDesignPatterns.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>targetver.h</label>
+        <link refid="0_introduction_to_modern_cpp_design_patterns_2targetver_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tchar.h</label>
+      </node>
+      <node id="1">
+        <label>stdafx.h</label>
+        <link refid="0_introduction_to_modern_cpp_design_patterns_2stdafx_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="0_introduction_to_modern_cpp_design_patterns_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/0IntroductionToModernCppDesignPatterns.cpp" line="29" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/0IntroductionToModernCppDesignPatterns.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>0IntroductionToModernCppDesignPatterns.cpp<sp/>:<sp/>Defines<sp/>the<sp/>entry<sp/>point<sp/>for<sp/>the<sp/>console<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">So<sp/>what<sp/>are<sp/>design<sp/>patterns:</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">Well<sp/>quite<sp/>simply<sp/>the<sp/>design<sp/>patterns<sp/>are<sp/>common<sp/>architectural<sp/>approaches<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment">that<sp/>people<sp/>have<sp/>observed<sp/>throughout<sp/>the<sp/>years<sp/>and<sp/>decided<sp/>to<sp/>catalog<sp/>them<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="comment">and<sp/>give<sp/>them<sp/>common<sp/>names<sp/>so<sp/>that<sp/>we<sp/>can<sp/>then<sp/>talk<sp/>between<sp/>one<sp/>another<sp/>and<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment">refer<sp/>to<sp/>the<sp/>same<sp/>patterns<sp/>using<sp/>the<sp/>same<sp/>words.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="0_introduction_to_modern_cpp_design_patterns_2stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//Key<sp/>Concepts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*Curiously<sp/>Recurring<sp/>Template<sp/>Pattern*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*Essentially,<sp/>the<sp/>idea<sp/>is<sp/>simple:<sp/>an<sp/>inheritor<sp/>passes<sp/>itself<sp/>as<sp/>a</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">template<sp/>argument<sp/>to<sp/>its<sp/>base<sp/>class:</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">struct<sp/>Foo<sp/>:<sp/>SomeBase&lt;Foo&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>...</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">why<sp/>one<sp/>would<sp/>ever<sp/>do<sp/>that?<sp/>Well,</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">one<sp/>reason<sp/>is<sp/>to<sp/>be<sp/>able<sp/>to<sp/>access<sp/>a<sp/>typed<sp/>this<sp/>pointer<sp/>inside<sp/>a<sp/>base<sp/>class</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">implementation.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="0_introduction_to_modern_cpp_design_patterns_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="0_introduction_to_modern_cpp_design_patterns_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/0IntroductionToModernCppDesignPatterns/0IntroductionToModernCppDesignPatterns.cpp"/>
+  </compounddef>
+</doxygen>

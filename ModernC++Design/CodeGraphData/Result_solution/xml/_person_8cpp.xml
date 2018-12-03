@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_person_8cpp" kind="file">
+    <compoundname>Person.cpp</compoundname>
+    <includes refid="_person_8h" local="yes">Person.h</includes>
+    <includes refid="_person_builder_8h" local="yes">PersonBuilder.h</includes>
+    <incdepgraph>
+      <node id="212">
+        <label>string</label>
+      </node>
+      <node id="214">
+        <label>PersonBuilder.h</label>
+        <link refid="_person_builder_8h"/>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>Person.h</label>
+        <link refid="_person_8h"/>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>iostream</label>
+      </node>
+      <node id="210">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Person.cpp</label>
+        <link refid="Person.cpp"/>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_8h" kindref="compound">Person.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_builder_8h" kindref="compound">PersonBuilder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_person_1ac1e8f87c5a4d921e0ab04e287e39b917" refkind="member"><highlight class="normal"><ref refid="class_person_builder" kindref="compound">PersonBuilder</ref><sp/><ref refid="class_person_1ac1e8f87c5a4d921e0ab04e287e39b917" kindref="member">Person::create</ref>()</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_person_builder" kindref="compound">PersonBuilder</ref>{};</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Person.cpp"/>
+  </compounddef>
+</doxygen>

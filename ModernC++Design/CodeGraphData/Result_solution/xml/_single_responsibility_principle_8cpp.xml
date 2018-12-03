@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_single_responsibility_principle_8cpp" kind="file">
+    <compoundname>SingleResponsibilityPrinciple.cpp</compoundname>
+    <includes refid="1_single_responsibility_principle_2stdafx_8h" local="yes">stdafx.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">boost/lexical_cast.hpp</includes>
+    <incdepgraph>
+      <node id="16">
+        <label>boost/lexical_cast.hpp</label>
+      </node>
+      <node id="8">
+        <label>stdafx.h</label>
+        <link refid="1_single_responsibility_principle_2stdafx_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="15">
+        <label>fstream</label>
+      </node>
+      <node id="9">
+        <label>targetver.h</label>
+        <link refid="1_single_responsibility_principle_2targetver_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>vector</label>
+      </node>
+      <node id="13">
+        <label>iostream</label>
+      </node>
+      <node id="12">
+        <label>tchar.h</label>
+      </node>
+      <node id="7">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp</label>
+        <link refid="SingleResponsibilityPrinciple.cpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_journal" prot="public">Journal</innerclass>
+    <innerclass refid="struct_persistence_manager" prot="public">PersistenceManager</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_single_responsibility_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="72" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="72" bodyend="87"/>
+        <references refid="struct_journal_1a7520f5e8aba13842a63ce604a2fe43d6" compoundref="_single_responsibility_principle_8cpp" startline="18" endline="21">Journal::add_entry</references>
+        <references refid="struct_persistence_manager_1a1222c6f2deb998e02e117bdb30080104" compoundref="_single_responsibility_principle_8cpp" startline="60" endline="69">PersistenceManager::save</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>SingleResponsibilityPrinciple.cpp<sp/>:<sp/>Defines<sp/>the<sp/>entry<sp/>point<sp/>for<sp/>the<sp/>console<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="1_single_responsibility_principle_2stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/lexical_cast.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_journal" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_journal" kindref="compound">Journal</ref><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="struct_journal_1a0792558c758bb432884a5075b8696aff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_journal_1a0792558c758bb432884a5075b8696aff" kindref="member">title</ref>;</highlight></codeline>
+<codeline lineno="14" refid="struct_journal_1ad96fd4f99472804e57b5c3143556c9d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>vector&lt;string&gt;<sp/><ref refid="struct_journal_1ad96fd4f99472804e57b5c3143556c9d8" kindref="member">entries</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="struct_journal_1a2293f1eb1f21fbf393304022b31ac05d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_journal_1a2293f1eb1f21fbf393304022b31ac05d" kindref="member">Journal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;tittle)<sp/>:<sp/>title(title){}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="struct_journal_1a7520f5e8aba13842a63ce604a2fe43d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_journal_1a7520f5e8aba13842a63ce604a2fe43d6" kindref="member">add_entry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;entry)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entries.push_back(boost::lexical_cast&lt;std::string&gt;(count++)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>entry);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Note:<sp/>definition<sp/>of<sp/>persistance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/>Persistent<sp/>objects<sp/>are<sp/>those<sp/>which<sp/>survive<sp/>between<sp/>successive<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>invocations<sp/>of<sp/>the<sp/>program.<sp/>A<sp/>classic<sp/>example<sp/>of<sp/>such<sp/>an<sp/>object<sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>is<sp/>a<sp/>database<sp/>record.<sp/>C++<sp/>doesn&apos;t<sp/>support<sp/>persistence<sp/>directly<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>(there<sp/>are<sp/>proposals<sp/>for<sp/>adding<sp/>persistence<sp/>and<sp/>reflection<sp/>to<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>C++<sp/>in<sp/>the<sp/>future)</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>problem<sp/>with<sp/>this<sp/>approach<sp/>is<sp/>that<sp/>you<sp/>now<sp/>have<sp/>a<sp/>separate<sp/>concern,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>a<sp/>concern<sp/>called<sp/>persistence.<sp/>So<sp/>you<sp/>are<sp/>adding<sp/>persistence<sp/>code<sp/>into<sp/>your<sp/>journal.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Imagine<sp/>that<sp/>you<sp/>add<sp/>load<sp/>function.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Imagine<sp/>that<sp/>you<sp/>want<sp/>to<sp/>use<sp/>databases<sp/>instead<sp/>of<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>would<sp/>have<sp/>to<sp/>go<sp/>thought<sp/>all<sp/>this<sp/>code<sp/>and<sp/>change<sp/>all<sp/>the<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>What<sp/>we<sp/>do<sp/>is<sp/>something<sp/>called:<sp/>separations<sp/>of<sp/>concerns.<sp/>We<sp/>say<sp/>that<sp/>the<sp/>Journal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>should<sp/>take<sp/>care<sp/>of<sp/>the<sp/>journal<sp/>entries<sp/>and<sp/>the<sp/>journal<sp/>tittle,<sp/>and<sp/>we<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>a<sp/>separate<sp/>class<sp/>(persistance<sp/>manager)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>is<sp/>not<sp/>the<sp/>correct<sp/>way<sp/>to<sp/>go.<sp/>If<sp/>the<sp/>way<sp/>that<sp/>we<sp/>use<sp/>to<sp/>save<sp/>,<sp/>for<sp/>example<sp/>from</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>files<sp/>to<sp/>databases,<sp/>we<sp/>should<sp/>have<sp/>to<sp/>change<sp/>everything.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="struct_journal_1a6bd0514fc341f3efda945cac99149281" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_journal_1a6bd0514fc341f3efda945cac99149281" kindref="member">save</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;filename)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::ofstream<sp/>ofs(filename);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>entry<sp/>:<sp/>entries)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofs<sp/>&lt;&lt;<sp/>entry<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//Separation<sp/>of<sp/>concerns,<sp/>in<sp/>a<sp/>separate<sp/>component.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="struct_persistence_manager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_persistence_manager" kindref="compound">PersistenceManager</ref></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//this<sp/>is<sp/>a<sp/>more<sp/>robust<sp/>and<sp/>more<sp/>reliable<sp/>way<sp/>of<sp/>actually<sp/>implementing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>persistance<sp/><sp/>what<sp/>happens<sp/>as<sp/>your<sp/>persistence<sp/>manager<sp/>grows<sp/>is<sp/>that</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>you<sp/>decide<sp/>that<sp/>something<sp/>changes,<sp/>you<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="struct_persistence_manager_1a1222c6f2deb998e02e117bdb30080104" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_persistence_manager_1a1222c6f2deb998e02e117bdb30080104" kindref="member">save</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_journal" kindref="compound">Journal</ref><sp/>&amp;j,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;filename)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::ofstream<sp/>ofs(filename);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>entry<sp/>:<sp/>j.<ref refid="struct_journal_1ad96fd4f99472804e57b5c3143556c9d8" kindref="member">entries</ref>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofs<sp/>&lt;&lt;<sp/>entry<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="_single_responsibility_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_single_responsibility_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//a<sp/>class<sp/>should<sp/>have<sp/>a<sp/>single<sp/>reason<sp/>to<sp/>change.<sp/>In<sp/>other<sp/>words,<sp/>a<sp/>class<sp/>should<sp/>have</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>a<sp/>primary<sp/>responsibility<sp/>and<sp/>it<sp/>should<sp/>not<sp/>take<sp/>up<sp/>other<sp/>responsibilities</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_journal" kindref="compound">Journal</ref><sp/>journal{<sp/></highlight><highlight class="stringliteral">&quot;Dear<sp/>Diary&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>journal.<ref refid="struct_journal_1a7520f5e8aba13842a63ce604a2fe43d6" kindref="member">add_entry</ref>(</highlight><highlight class="stringliteral">&quot;I<sp/>ate<sp/>a<sp/>bug&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>journal.add_entry(</highlight><highlight class="stringliteral">&quot;I<sp/>cried<sp/>today&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Instead<sp/>of<sp/>doing<sp/>this:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//journal.save(&quot;diary.txt&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_persistence_manager" kindref="compound">PersistenceManager</ref><sp/>pm;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>pm.<ref refid="struct_persistence_manager_1a1222c6f2deb998e02e117bdb30080104" kindref="member">save</ref>(journal,<sp/></highlight><highlight class="stringliteral">&quot;diary.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>getchar();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp"/>
+  </compounddef>
+</doxygen>

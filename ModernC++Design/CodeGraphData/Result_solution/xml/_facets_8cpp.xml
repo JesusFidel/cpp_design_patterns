@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_facets_8cpp" kind="file">
+    <compoundname>Facets.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">sstream</includes>
+    <includes refid="_person_8h" local="yes">Person.h</includes>
+    <includes refid="_person_builder_8h" local="yes">PersonBuilder.h</includes>
+    <includes refid="_person_address_builder_8h" local="yes">PersonAddressBuilder.h</includes>
+    <includes refid="_person_job_builder_8h" local="yes">PersonJobBuilder.h</includes>
+    <incdepgraph>
+      <node id="202">
+        <label>string</label>
+      </node>
+      <node id="206">
+        <label>PersonBuilder.h</label>
+        <link refid="_person_builder_8h"/>
+        <childnode refid="205" relation="include">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp</label>
+        <link refid="Facets.cpp"/>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>PersonAddressBuilder.h</label>
+        <link refid="_person_address_builder_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>PersonJobBuilder.h</label>
+        <link refid="_person_job_builder_8h"/>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>vector</label>
+      </node>
+      <node id="204">
+        <label>sstream</label>
+      </node>
+      <node id="205">
+        <label>Person.h</label>
+        <link refid="_person_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_facets_8cpp_1a224859fe3f1629955ffe2a5279963b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main__</definition>
+        <argsstring>()</argsstring>
+        <name>main__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp" line="13" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp" bodystart="13" bodyend="22"/>
+        <references refid="class_person_job_builder_1ada3e7923e1f190368a057fbd0e9d7564" compoundref="_person_job_builder_8h" startline="19" endline="23">PersonJobBuilder::as_a</references>
+        <references refid="class_person_address_builder_1a73ef851c9785a359d9a65b708e8b661a" compoundref="_person_address_builder_8h" startline="13" endline="17">PersonAddressBuilder::at</references>
+        <references refid="class_person_job_builder_1afe377bb08a0eb99dbd06ef8aec34d487" compoundref="_person_job_builder_8h" startline="13" endline="17">PersonJobBuilder::at</references>
+        <references refid="class_person_1ac1e8f87c5a4d921e0ab04e287e39b917" compoundref="_person_8cpp" startline="4" endline="7">Person::create</references>
+        <references refid="class_person_job_builder_1ac1a43391ce152d6fe6abd9de89b39301" compoundref="_person_job_builder_8h" startline="25" endline="29">PersonJobBuilder::earning</references>
+        <references refid="class_person_address_builder_1a8b32ff280491f2d4e0718b34579243f6" compoundref="_person_address_builder_8h" startline="25" endline="29">PersonAddressBuilder::in</references>
+        <references refid="class_person_builder_base_1ac09ad8bf36acea5d5dfda54c45d26b5d" compoundref="_person_builder_8cpp" startline="5" endline="8">PersonBuilderBase::lives</references>
+        <references refid="class_person_address_builder_1a25b35a92c342d75897b2bd7cca093089" compoundref="_person_address_builder_8h" startline="19" endline="23">PersonAddressBuilder::with_postcode</references>
+        <references refid="class_person_builder_base_1a4115dc6c81c43780b9cc91f1019c7fc3" compoundref="_person_builder_8cpp" startline="10" endline="13">PersonBuilderBase::works</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_8h" kindref="compound">Person.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_builder_8h" kindref="compound">PersonBuilder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_address_builder_8h" kindref="compound">PersonAddressBuilder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_person_job_builder_8h" kindref="compound">PersonJobBuilder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_facets_8cpp_1a224859fe3f1629955ffe2a5279963b64" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_facets_8cpp_1a224859fe3f1629955ffe2a5279963b64" kindref="member">main__</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="class_person" kindref="compound">Person</ref><sp/>p<sp/>=<sp/><ref refid="class_person_1ac1e8f87c5a4d921e0ab04e287e39b917" kindref="member">Person::create</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>.<ref refid="class_person_builder_base_1ac09ad8bf36acea5d5dfda54c45d26b5d" kindref="member">lives</ref>().<ref refid="class_person_address_builder_1a73ef851c9785a359d9a65b708e8b661a" kindref="member">at</ref>(</highlight><highlight class="stringliteral">&quot;123<sp/>London<sp/>Road&quot;</highlight><highlight class="normal">).<ref refid="class_person_address_builder_1a25b35a92c342d75897b2bd7cca093089" kindref="member">with_postcode</ref>(</highlight><highlight class="stringliteral">&quot;SW1<sp/>1GB&quot;</highlight><highlight class="normal">).<ref refid="class_person_address_builder_1a8b32ff280491f2d4e0718b34579243f6" kindref="member">in</ref>(</highlight><highlight class="stringliteral">&quot;London&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>.<ref refid="class_person_builder_base_1a4115dc6c81c43780b9cc91f1019c7fc3" kindref="member">works</ref>().<ref refid="class_person_job_builder_1afe377bb08a0eb99dbd06ef8aec34d487" kindref="member">at</ref>(</highlight><highlight class="stringliteral">&quot;PragmaSoft&quot;</highlight><highlight class="normal">).<ref refid="class_person_job_builder_1ada3e7923e1f190368a057fbd0e9d7564" kindref="member">as_a</ref>(</highlight><highlight class="stringliteral">&quot;Consultant&quot;</highlight><highlight class="normal">).<ref refid="class_person_job_builder_1ac1a43391ce152d6fe6abd9de89b39301" kindref="member">earning</ref>(10e6);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>cout<sp/>&lt;&lt;<sp/>p<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>getchar();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_product_filter" kind="struct" prot="public">
+    <compoundname>ProductFilter</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_product_filter_1ac7dde76a8bc4ed08ec15edb501bc4ff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; <ref refid="struct_product" kindref="compound">Product</ref> * &gt;</type>
+        <definition>vector&lt;Product*&gt; ProductFilter::by_color</definition>
+        <argsstring>(vector&lt; Product * &gt; items, Color color)</argsstring>
+        <name>by_color</name>
+        <param>
+          <type>vector&lt; <ref refid="struct_product" kindref="compound">Product</ref> * &gt;</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type><ref refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="41" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="41" bodyend="52"/>
+        <referencedby refid="2_open-_closed_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="2_open-_closed_principle_8cpp" startline="161" endline="225">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_product_filter_1a9f8510cc7c9fd2e9498de6d821d240b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; <ref refid="struct_product" kindref="compound">Product</ref> * &gt;</type>
+        <definition>vector&lt;Product*&gt; ProductFilter::by_size</definition>
+        <argsstring>(vector&lt; Product * &gt; items, Size size)</argsstring>
+        <name>by_size</name>
+        <param>
+          <type>vector&lt; <ref refid="struct_product" kindref="compound">Product</ref> * &gt;</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type><ref refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4" kindref="member">Size</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="53" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="53" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_product_filter_1a0fb5f0e83ab6273d8b05d3a961d9fcd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; <ref refid="struct_product" kindref="compound">Product</ref> * &gt;</type>
+        <definition>vector&lt;Product*&gt; ProductFilter::by_size_and_color</definition>
+        <argsstring>(vector&lt; Product * &gt; items, Size size, Color color)</argsstring>
+        <name>by_size_and_color</name>
+        <param>
+          <type>vector&lt; <ref refid="struct_product" kindref="compound">Product</ref> * &gt;</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type><ref refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4" kindref="member">Size</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="65" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="65" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" line="40" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple/2Open-ClosedPrinciple.cpp" bodystart="39" bodyend="77"/>
+    <listofallmembers>
+      <member refid="struct_product_filter_1ac7dde76a8bc4ed08ec15edb501bc4ff7" prot="public" virt="non-virtual"><scope>ProductFilter</scope><name>by_color</name></member>
+      <member refid="struct_product_filter_1a9f8510cc7c9fd2e9498de6d821d240b9" prot="public" virt="non-virtual"><scope>ProductFilter</scope><name>by_size</name></member>
+      <member refid="struct_product_filter_1a0fb5f0e83ab6273d8b05d3a961d9fcd6" prot="public" virt="non-virtual"><scope>ProductFilter</scope><name>by_size_and_color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

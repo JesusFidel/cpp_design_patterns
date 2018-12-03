@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_journal" kind="struct" prot="public">
+    <compoundname>Journal</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_journal_1a0792558c758bb432884a5075b8696aff" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Journal::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="13" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_journal_1ad96fd4f99472804e57b5c3143556c9d8" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Journal::entries</definition>
+        <argsstring></argsstring>
+        <name>entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="14" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_persistence_manager_1a1222c6f2deb998e02e117bdb30080104" compoundref="_single_responsibility_principle_8cpp" startline="60" endline="69">PersistenceManager::save</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_journal_1a2293f1eb1f21fbf393304022b31ac05d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Journal::Journal</definition>
+        <argsstring>(const string &amp;tittle)</argsstring>
+        <name>Journal</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>tittle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="16" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_journal_1a7520f5e8aba13842a63ce604a2fe43d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Journal::add_entry</definition>
+        <argsstring>(const std::string &amp;entry)</argsstring>
+        <name>add_entry</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>entry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="18" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="18" bodyend="21"/>
+        <referencedby refid="_single_responsibility_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_single_responsibility_principle_8cpp" startline="72" endline="87">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_journal_1a6bd0514fc341f3efda945cac99149281" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Journal::save</definition>
+        <argsstring>(const string &amp;filename)</argsstring>
+        <name>save</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="43" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="43" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="52">
+        <label>std::vector&lt; string &gt;</label>
+        <childnode refid="53" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="54">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="51">
+        <label>Journal</label>
+        <link refid="struct_journal"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>entries</edgelabel>
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>title</edgelabel>
+        </childnode>
+      </node>
+      <node id="53">
+        <label>std::string</label>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" line="12" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/1SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.cpp" bodystart="12" bodyend="52"/>
+    <listofallmembers>
+      <member refid="struct_journal_1a7520f5e8aba13842a63ce604a2fe43d6" prot="public" virt="non-virtual"><scope>Journal</scope><name>add_entry</name></member>
+      <member refid="struct_journal_1ad96fd4f99472804e57b5c3143556c9d8" prot="public" virt="non-virtual"><scope>Journal</scope><name>entries</name></member>
+      <member refid="struct_journal_1a2293f1eb1f21fbf393304022b31ac05d" prot="public" virt="non-virtual"><scope>Journal</scope><name>Journal</name></member>
+      <member refid="struct_journal_1a6bd0514fc341f3efda945cac99149281" prot="public" virt="non-virtual"><scope>Journal</scope><name>save</name></member>
+      <member refid="struct_journal_1a0792558c758bb432884a5075b8696aff" prot="public" virt="non-virtual"><scope>Journal</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

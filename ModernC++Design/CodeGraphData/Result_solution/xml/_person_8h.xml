@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_person_8h" kind="file">
+    <compoundname>Person.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="_facets_8cpp" local="yes">C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp</includedby>
+    <includedby refid="_person_builder_8h" local="yes">C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h</includedby>
+    <includedby refid="_person_8cpp" local="yes">C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Person.cpp</includedby>
+    <incdepgraph>
+      <node id="217">
+        <label>string</label>
+      </node>
+      <node id="216">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Person.h</label>
+        <link refid="Person.h"/>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="221">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.h</label>
+        <link refid="_person_builder_8h"/>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Facets.cpp</label>
+        <link refid="_facets_8cpp"/>
+      </node>
+      <node id="222">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonJobBuilder.h</label>
+        <link refid="_person_job_builder_8h"/>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Person.h</label>
+        <link refid="Person.h"/>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/PersonBuilder.cpp</label>
+        <link refid="_person_builder_8cpp"/>
+      </node>
+      <node id="224">
+        <label>C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Person.cpp</label>
+        <link refid="_person_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_person" prot="public">Person</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_person_builder" kindref="compound">PersonBuilder</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_person" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_person" kindref="compound">Person</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>address</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_person_1ad13c19e25f45bd461dbeb6d3f8720c2a" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="class_person_1ad13c19e25f45bd461dbeb6d3f8720c2a" kindref="member">street_address</ref>,<sp/><ref refid="class_person_1a324df17ab2e662f7d06f66d20eff79b2" kindref="member">post_code</ref>,<sp/><ref refid="class_person_1ace2b0c261b00f4ec7d95b08ec2e8e59d" kindref="member">city</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>employment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_person_1a0debb70c9909345d7f9cb8eb975661ed" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="class_person_1af00fc5ae67ba4a2a71278a3721d695a0" kindref="member">company_name</ref>,<sp/><ref refid="class_person_1a0debb70c9909345d7f9cb8eb975661ed" kindref="member">position</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_person_1aa7903812d6bbcbcd2a176a44dff084f6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_person_1aa7903812d6bbcbcd2a176a44dff084f6" kindref="member">annual_income</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_person_1a0397c6f89fafc12e738923f612bc41a3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_person_1a0397c6f89fafc12e738923f612bc41a3" kindref="member">Person</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Person<sp/>created\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22" refid="class_person_1a700ffd693321c5fe6880262acf43d4da" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_person_1a700ffd693321c5fe6880262acf43d4da" kindref="member">~Person</ref>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Person<sp/>destroyed\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_person_builder" kindref="compound">PersonBuilder</ref><sp/><ref refid="class_person_1ac1e8f87c5a4d921e0ab04e287e39b917" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_person_1a086475ed9df90992bcdf73901de67e48" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_person_1a086475ed9df90992bcdf73901de67e48" kindref="member">Person</ref>(<ref refid="class_person" kindref="compound">Person</ref>&amp;&amp;<sp/>other)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_person_1ad13c19e25f45bd461dbeb6d3f8720c2a" kindref="member">street_address</ref>{move(other.street_address)},</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_person_1a324df17ab2e662f7d06f66d20eff79b2" kindref="member">post_code</ref>{move(other.post_code)},</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_person_1ace2b0c261b00f4ec7d95b08ec2e8e59d" kindref="member">city</ref>{move(other.city)},</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_person_1af00fc5ae67ba4a2a71278a3721d695a0" kindref="member">company_name</ref>{move(other.company_name)},</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_person_1a0debb70c9909345d7f9cb8eb975661ed" kindref="member">position</ref>{move(other.position)},</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_person_1aa7903812d6bbcbcd2a176a44dff084f6" kindref="member">annual_income</ref>{other.annual_income}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_person_1a8bf2ee7111e1da635d6259e884ccbb36" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_person" kindref="compound">Person</ref>&amp;<sp/><ref refid="class_person_1a8bf2ee7111e1da635d6259e884ccbb36" kindref="member">operator=</ref>(<ref refid="class_person" kindref="compound">Person</ref>&amp;&amp;<sp/>other)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>&amp;other)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_1ad13c19e25f45bd461dbeb6d3f8720c2a" kindref="member">street_address</ref><sp/>=<sp/>move(other.street_address);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_1a324df17ab2e662f7d06f66d20eff79b2" kindref="member">post_code</ref><sp/>=<sp/>move(other.post_code);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_1ace2b0c261b00f4ec7d95b08ec2e8e59d" kindref="member">city</ref><sp/>=<sp/>move(other.city);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_1af00fc5ae67ba4a2a71278a3721d695a0" kindref="member">company_name</ref><sp/>=<sp/>move(other.company_name);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_1a0debb70c9909345d7f9cb8eb975661ed" kindref="member">position</ref><sp/>=<sp/>move(other.position);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_person_1aa7903812d6bbcbcd2a176a44dff084f6" kindref="member">annual_income</ref><sp/>=<sp/>other.annual_income;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="class_person_1a0d15abc5196d2f4f708d883eb626bd78" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="class_person_1a0d15abc5196d2f4f708d883eb626bd78" kindref="member">operator&lt;&lt;</ref>(std::ostream&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_person" kindref="compound">Person</ref>&amp;<sp/>obj)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;street_address:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>obj.<ref refid="class_person_1ad13c19e25f45bd461dbeb6d3f8720c2a" kindref="member">street_address</ref></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>post_code:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>obj.<ref refid="class_person_1a324df17ab2e662f7d06f66d20eff79b2" kindref="member">post_code</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>city:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>obj.<ref refid="class_person_1ace2b0c261b00f4ec7d95b08ec2e8e59d" kindref="member">city</ref></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>company_name:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>obj.<ref refid="class_person_1af00fc5ae67ba4a2a71278a3721d695a0" kindref="member">company_name</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>position:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>obj.<ref refid="class_person_1a0debb70c9909345d7f9cb8eb975661ed" kindref="member">position</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>annual_income:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>obj.<ref refid="class_person_1aa7903812d6bbcbcd2a176a44dff084f6" kindref="member">annual_income</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Mixing<sp/>several<sp/>builders<sp/>to<sp/>build<sp/>the<sp/>class<sp/>Person</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_person_1a2710a52a060b02d402ad90004bfbbca0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_person_builder" kindref="compound">PersonBuilder</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_person_1af13e3035424af7bf0947cdb7bbbc7313" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_person_address_builder" kindref="compound">PersonAddressBuilder</ref>;</highlight></codeline>
+<codeline lineno="67" refid="class_person_1a2e44035c85552e8a8e732b16d35baeb0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_person_job_builder" kindref="compound">PersonJobBuilder</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/6BuilderFacets/Person.h"/>
+  </compounddef>
+</doxygen>

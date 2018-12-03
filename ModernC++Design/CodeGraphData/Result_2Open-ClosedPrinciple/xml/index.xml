@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="struct_and_specification" kind="struct"><name>AndSpecification</name>
+    <member refid="struct_and_specification_1a4894e8864c3e2271bc816135ac3b4ebc" kind="variable"><name>first</name></member>
+    <member refid="struct_and_specification_1add38e3ae957f57e8e65b6e12ca291cbe" kind="variable"><name>second</name></member>
+    <member refid="struct_and_specification_1aaaa773ad9c6f5c9ed37e492e4de2dfb2" kind="function"><name>AndSpecification</name></member>
+    <member refid="struct_and_specification_1aa6d9fb5773dfc55dba815ed1417cb81e" kind="function"><name>is_satisfied</name></member>
+  </compound>
+  <compound refid="struct_better_filter" kind="struct"><name>BetterFilter</name>
+    <member refid="struct_better_filter_1aa9da194971b56e495bde62309452173c" kind="function"><name>filter</name></member>
+  </compound>
+  <compound refid="struct_color_specification" kind="struct"><name>ColorSpecification</name>
+    <member refid="struct_color_specification_1ab5cb7fe1ba7ffcdc4d6e8be64c5d8a0a" kind="variable"><name>m_color</name></member>
+    <member refid="struct_color_specification_1a786795324299b99d38bebf9a43bc7cec" kind="function"><name>ColorSpecification</name></member>
+    <member refid="struct_color_specification_1a2e999c507c773439e95f1766e17bd538" kind="function"><name>is_satisfied</name></member>
+  </compound>
+  <compound refid="struct_filter" kind="struct"><name>Filter</name>
+    <member refid="struct_filter_1a3b09461e79c0a7827c750560efaf57ff" kind="function"><name>filter</name></member>
+  </compound>
+  <compound refid="struct_product" kind="struct"><name>Product</name>
+    <member refid="struct_product_1acc9bddcf74112d85a6dc231db2269b8d" kind="variable"><name>name</name></member>
+    <member refid="struct_product_1a12eef43b4dc615d569d2b07760d10bc1" kind="variable"><name>color</name></member>
+    <member refid="struct_product_1a4dfd34f7d658e42d72efa0679e96cdb3" kind="variable"><name>size</name></member>
+  </compound>
+  <compound refid="struct_product_filter" kind="struct"><name>ProductFilter</name>
+    <member refid="struct_product_filter_1ac7dde76a8bc4ed08ec15edb501bc4ff7" kind="function"><name>by_color</name></member>
+    <member refid="struct_product_filter_1a9f8510cc7c9fd2e9498de6d821d240b9" kind="function"><name>by_size</name></member>
+    <member refid="struct_product_filter_1a0fb5f0e83ab6273d8b05d3a961d9fcd6" kind="function"><name>by_size_and_color</name></member>
+  </compound>
+  <compound refid="struct_size_specification" kind="struct"><name>SizeSpecification</name>
+    <member refid="struct_size_specification_1a4643be27a3521396c517bc3705b125cc" kind="variable"><name>m_size</name></member>
+    <member refid="struct_size_specification_1ade286302d2999f5ae4494cf2fa4f0674" kind="function"><name>SizeSpecification</name></member>
+    <member refid="struct_size_specification_1a0b2d8d5be0f5a53ee88bfb984172f8de" kind="function"><name>is_satisfied</name></member>
+  </compound>
+  <compound refid="struct_specification" kind="struct"><name>Specification</name>
+    <member refid="struct_specification_1a509392a90d0c98f045a8b8287b0799a2" kind="function"><name>is_satisfied</name></member>
+    <member refid="struct_specification_1a1b75a14a5836043868e13779366c4f6c" kind="function"><name>operator&amp;&amp;</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="2_open-_closed_principle_8cpp" kind="file"><name>2Open-ClosedPrinciple.cpp</name>
+    <member refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1c" kind="enum"><name>Color</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1cabda9643ac6601722a28f238714274da4" kind="enumvalue"><name>red</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1ca9f27410725ab8cc8854a2769c7a516b8" kind="enumvalue"><name>green</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1ab87bacfdad76e61b9412d7124be44c1ca48d6215903dff56238e52e8891380c8f" kind="enumvalue"><name>blue</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4" kind="enum"><name>Size</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4aeb5c1399a871211c7e7ed732d15e3a8b" kind="enumvalue"><name>small</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4a075a3e36a0a52dcbc568c05788e8a713" kind="enumvalue"><name>medium</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1a1c40db1d9b56c27240e420765695f1c4aafacdb0a401ccdf6b48551bbc00e8a74" kind="enumvalue"><name>large</name></member>
+    <member refid="2_open-_closed_principle_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="stdafx_8cpp" kind="file"><name>stdafx.cpp</name>
+  </compound>
+  <compound refid="stdafx_8h" kind="file"><name>stdafx.h</name>
+  </compound>
+  <compound refid="targetver_8h" kind="file"><name>targetver.h</name>
+  </compound>
+  <compound refid="dir_5d2434b8e407f0c18f8e0cb6155fd172" kind="dir"><name>C:/shared/Courses/modernCppDesign/ModernC++Design/2Open-ClosedPrinciple</name>
+  </compound>
+  <compound refid="dir_51c5d964a4d2876df9fd99f76f9e08a2" kind="dir"><name>C:/shared/Courses</name>
+  </compound>
+  <compound refid="dir_a154e22d8234d9a27935006d83487f07" kind="dir"><name>C:/shared/Courses/modernCppDesign/ModernC++Design</name>
+  </compound>
+  <compound refid="dir_c80a401a5398daf8b9aadaa3dd47cc02" kind="dir"><name>C:/shared/Courses/modernCppDesign</name>
+  </compound>
+  <compound refid="dir_a595fe1fd504d159d84633fde18fdbc7" kind="dir"><name>C:/shared</name>
+  </compound>
+</doxygenindex>

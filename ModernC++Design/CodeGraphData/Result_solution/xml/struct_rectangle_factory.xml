@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_rectangle_factory" kind="struct" prot="public">
+    <compoundname>RectangleFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_rectangle_factory_1a5460e14be3a4c2d8aa4450f24ea4e86b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_rectangle" kindref="compound">Rectangle</ref></type>
+        <definition>static Rectangle RectangleFactory::create_rectangle</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>create_rectangle</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_rectangle_factory_1ae1ab91605e18a617fe125fce2a1ecf5c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_rectangle" kindref="compound">Rectangle</ref></type>
+        <definition>static Rectangle RectangleFactory::create_square</definition>
+        <argsstring>(int size)</argsstring>
+        <name>create_square</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="68" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" line="66" column="1" bodyfile="C:/shared/Courses/modernCppDesign/ModernC++Design/3LiskovSubstitutionPrinciple/3LiskovSubstitutionPrinciple.cpp" bodystart="65" bodyend="69"/>
+    <listofallmembers>
+      <member refid="struct_rectangle_factory_1a5460e14be3a4c2d8aa4450f24ea4e86b" prot="public" virt="non-virtual"><scope>RectangleFactory</scope><name>create_rectangle</name></member>
+      <member refid="struct_rectangle_factory_1ae1ab91605e18a617fe125fce2a1ecf5c" prot="public" virt="non-virtual"><scope>RectangleFactory</scope><name>create_square</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
