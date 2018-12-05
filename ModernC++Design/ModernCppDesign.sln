@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5DependencyInversionPrincip
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7FluentBuilder", "7FluentBuilder\7FluentBuilder.vcxproj", "{401199BF-2F5C-4D10-8288-9AABDEBA4FF9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9-Factory", "9-Factory\9-Factory.vcxproj", "{42C93BA9-4C02-443D-AB78-3A8128569681}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{401199BF-2F5C-4D10-8288-9AABDEBA4FF9}.Release|x64.Build.0 = Release|x64
 		{401199BF-2F5C-4D10-8288-9AABDEBA4FF9}.Release|x86.ActiveCfg = Release|Win32
 		{401199BF-2F5C-4D10-8288-9AABDEBA4FF9}.Release|x86.Build.0 = Release|Win32
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Debug|x64.ActiveCfg = Debug|x64
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Debug|x64.Build.0 = Debug|x64
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Debug|x86.ActiveCfg = Debug|Win32
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Debug|x86.Build.0 = Debug|Win32
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Release|x64.ActiveCfg = Release|x64
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Release|x64.Build.0 = Release|x64
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Release|x86.ActiveCfg = Release|Win32
+		{42C93BA9-4C02-443D-AB78-3A8128569681}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
